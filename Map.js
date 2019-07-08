@@ -143,6 +143,11 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Luxembourg
+    'luxembourg', {
+      cities: new Collection([[ 'luxembourg', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }]]),
+    },
+  ],
 ]);
 
 module.exports = map;
