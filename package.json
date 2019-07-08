@@ -1,0 +1,19 @@
+{
+  "name": "ets2-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tipakA/ETS2-Helper.git"
+  },
+  "author": "tipakA <github@tipaka.rip>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tipakA/ETS2-Helper/issues"
+  },
+  "homepage": "https://github.com/tipakA/ETS2-Helper#readme"
+}
