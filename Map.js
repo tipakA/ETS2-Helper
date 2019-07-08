@@ -205,6 +205,28 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Sweden
+    'sweden', {
+      cities: new Collection([
+        [ 'goteborg', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'helsingborg', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'jonkping', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'kalmar', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'kapellskar', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'karlskrona', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'linkoping', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'malmo', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'nynashamn', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'orebro', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'sodertalje', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'stockholm', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'trelleborg', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'uppsala', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'vasteras', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'vaxjo', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
