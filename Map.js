@@ -80,6 +80,34 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Germany
+    'germany', {
+      cities: new Collection([
+        [ 'berlin', { dealer: 'MAN', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'bremen', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'dortmund', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'dresden', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'duisburg', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'dusseldorf', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'erfurt', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'frankfurt', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'hamburg', { dealer: 'Iveco', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'hannover', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'kassel', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'kiel', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'koln', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'leipzig', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'magdeburg', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'mannheim', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'munchen', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'nurnberg', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'osnabruck', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'rostock', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'stuttgart', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'travemunde', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
