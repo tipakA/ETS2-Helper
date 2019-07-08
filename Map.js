@@ -22,6 +22,14 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Belgium
+    'belgium', {
+      cities: new Collection([
+        [ 'brussel', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'liege', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
