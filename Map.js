@@ -196,6 +196,15 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Slovakia
+    'slovakia', {
+      cities: new Collection([
+        [ 'bratislava', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'bystrica', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'kosice', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
