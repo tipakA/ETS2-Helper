@@ -70,6 +70,79 @@ const transmissions = new Collection([
   ],
 ]);
 
-const trucks = new Collection([]);
+const trucks = new Collection([
+  [ // TD-LTR-01
+    'TD-LTR-01', {
+      manufacturer: 'MAN',
+      model: 'TGX',
+      cabinType: 'XL',
+      plate: 'GSP 75UH',
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Sunny Yellow',
+      wheelbase: 3809,
+      fuelTank: 1250,
+      engine: engines.get('D2676 324'),
+      transmission: {
+        ...transmissions.get('ZF 121AS2331TD R'),
+        differential: 2.71,
+      },
+    },
+  ],
+  [ // TD-LTR-02
+    'TD-LTR-02', {
+      manufacturer: 'Iveco',
+      model: 'Stralis',
+      cabinType: 'Hi-Way',
+      plate: 'GA 846VL',
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Custom Dark Blue',
+      wheelbase: 3549,
+      fuelTank: 1200,
+      engine: engines.get('Cursor 13 500'),
+      transmission: {
+        ...transmissions.get('ZF 121AS2331TD R'),
+        differential: 2.64,
+      },
+    },
+  ],
+  [ // TD-LTR-03
+    'TD-LTR-03', {
+      manufacturer: 'Mercedes-Benz',
+      model: 'New Actros',
+      cabinType: 'GigaSpace',
+      chassis: '4x2',
+      plate: 'GSP 15MV',
+      interior: 'Standard',
+      color: 'Magic Bordo',
+      wheelbase: 3761,
+      fuelTank: 1400,
+      engine: engines.get('OM 471 Euro VI'),
+      transmission: {
+        ...transmissions.get('PowerShift G281-12 R'),
+        differential: 2.73,
+      },
+    },
+  ],
+  [ // TD-LTR-04
+    'TD-LTR-04', {
+      manufacturer: 'DAF',
+      model: 'XF',
+      cabinType: 'Space',
+      chassis: '4x2',
+      plate: 'GA 213PR',
+      interior: 'Standard Line',
+      color: 'Jamaica Blue',
+      wheelbase: 3780,
+      fuelTank: 1400,
+      engine: engines.get('MX-11 320 Euro 6'),
+      transmission: {
+        ...transmissions.get('ZF 121AS2331TD R'),
+        differential: 2.64,
+      },
+    },
+  ],
+]);
 
 module.exports = trucks;
