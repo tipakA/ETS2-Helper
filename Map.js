@@ -236,6 +236,30 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // UK
+    'uk', {
+      cities: new Collection([
+        [ 'aberdeen', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'cardiff', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'birmingham', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'cambridge', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'carlisle', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'dover', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'edinburgh', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'felixstowe', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'glasgow', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'grimsby', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'liverpool', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'london', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'manchester', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'newcastle', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'plymouth', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'sheffield', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'southampton', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'swansea', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
