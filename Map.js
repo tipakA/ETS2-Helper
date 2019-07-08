@@ -52,6 +52,18 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Estonia
+    'estonia', {
+      cities: new Collection([
+        [ 'kunda', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'narva', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'paldiski', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'parnu', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'tallinn', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'tartu', { dealer: 'DAF', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
