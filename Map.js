@@ -227,6 +227,15 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Switzerland
+    'switzerland', {
+      cities: new Collection([
+        [ 'zurich', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'bern', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'geneve', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
