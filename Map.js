@@ -118,6 +118,18 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Latvia
+    'latvia', {
+      cities: new Collection([
+        [ 'daugavpils', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'liepaja', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'rezekne', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'riga', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'valmiera', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'venstpils', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
