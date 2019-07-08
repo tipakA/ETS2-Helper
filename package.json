@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tipakA/ETS2-Helper/issues"
   },
-  "homepage": "https://github.com/tipakA/ETS2-Helper#readme"
+  "homepage": "https://github.com/tipakA/ETS2-Helper#readme",
+  "dependencies": {
+    "collection": "github:discordjs/collection"
+  }
 }
