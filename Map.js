@@ -47,7 +47,7 @@ const map = new Collection([
         [ 'frederikshavn', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'gedser', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'hirtshals', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'kobenhavn', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'kobenhavn', { dealer: 'Iveco', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'odense', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
       ]),
     },
