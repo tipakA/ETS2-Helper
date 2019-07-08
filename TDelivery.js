@@ -51,7 +51,24 @@ const engines = new Collection([
   ],
 ]);
 
-const transmissions = new Collection([]);
+const transmissions = new Collection([
+  [ // ZF 12AS2331TD R
+    'ZF 12AS2331TD R', {
+      model: 'ZF 12AS2331TD R',
+      retarder: true,
+      gearCount: 12,
+      gearRatio: [ 15.86, 1 ],
+    },
+  ],
+  [ // PowerShift G281-12 R
+    'PowerShift G281-12 R', {
+      model: 'PowerShift G281-12 R',
+      retarder: true,
+      gearCount: 12,
+      gearRatio: [ 14.93, 1 ],
+    },
+  ],
+]);
 
 const trucks = new Collection([]);
 
