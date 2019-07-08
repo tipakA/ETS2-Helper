@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys, no-inline-comments */
 const Collection = require('collection');
 
 const engines = new Collection([]);
