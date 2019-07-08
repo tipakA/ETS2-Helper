@@ -148,6 +148,15 @@ const map = new Collection([
       cities: new Collection([[ 'luxembourg', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }]]),
     },
   ],
+  [ // Netherlands
+    'netherlands', {
+      cities: new Collection([
+        [ 'amsterdam', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'groningen', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'rotterdam', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
