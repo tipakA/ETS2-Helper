@@ -157,6 +157,16 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Norway
+    'norway', {
+      cities: new Collection([
+        [ 'bergen', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'kristiansand', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'oslo', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'stavanger', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
