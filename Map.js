@@ -39,6 +39,19 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Denmark
+    'denmark', {
+      cities: new Collection([
+        [ 'aalborg', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'esbjerg', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'frederikshavn', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'gedser', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'hirtshals', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'kobenhavn', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'odense', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
