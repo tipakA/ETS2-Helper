@@ -92,7 +92,7 @@ const map = new Collection([
         [ 'erfurt', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'frankfurt', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'hamburg', { dealer: 'Iveco', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
-        [ 'hannover', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'hannover', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'kassel', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'kiel', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'koln', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
