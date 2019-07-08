@@ -167,6 +167,23 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Poland
+    'poland', {
+      cities: new Collection([
+        [ 'bialystok', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'gdansk', { dealer: 'Scania', discovered: true, garage: { level: 3, owned: true }, laborExchange: true, whole: true }],
+        [ 'katowice', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'krakow', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'lodz', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'lublin', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'olsztyn', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'poznan', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'szczecin', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'warszawa', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'wroclaw', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
