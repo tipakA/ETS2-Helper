@@ -184,6 +184,18 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Russia
+    'russia', {
+      cities: new Collection([
+        [ 'kaliningrad', { dealer: 'Mercedes-Benz', discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'luga', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'petersburg', { dealer: 'DAF', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'pskow', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'sosnowy', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'wyborg', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
 ]);
 
 module.exports = map;
