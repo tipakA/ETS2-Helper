@@ -49,7 +49,7 @@ const engines = new Collection([
       },
     },
   ],
-  [
+  [ // MX-13 390 Euro 6, 2017
     'MX-13 390 Euro 6, 2017', {
       model: 'MX-13 390 Euro 6, 2017',
       power: power(530),
