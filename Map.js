@@ -118,6 +118,38 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Italy
+    'italy', {
+      cities: new Collection([
+        [ 'ancona', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'bari', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'bologna', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'cagliari', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'cassino', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'catania', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'catanzaro', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'firenze', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'genova', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'livorno', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'messina', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'milano', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'napoli', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
+        [ 'olbia', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'palermo', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'parma', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'pescara', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'roma', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'sassari', { dealer: 'Mercedes-Benz', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'suzzara', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'taranto', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'terni', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'torino', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'venezia', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'verona', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'villa', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
   [ // Latvia
     'latvia', {
       cities: new Collection([
