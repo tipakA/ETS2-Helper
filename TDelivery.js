@@ -49,6 +49,16 @@ const engines = new Collection([
       },
     },
   ],
+  [
+    'MX-13 390 Euro 6, 2017', {
+      model: 'MX-13 390 Euro 6, 2017',
+      power: power(530),
+      torque: {
+        nm: [ 2500, 2600 ],
+        at: [ 1000, 1425 ],
+      },
+    },
+  ],
 ]);
 
 const transmissions = new Collection([
