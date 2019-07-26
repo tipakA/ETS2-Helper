@@ -102,7 +102,7 @@ const trucks = new Collection([
       fuelTank: 1250,
       engine: engines.get('D2676 324'),
       transmission: {
-        ...transmissions.get('ZF 121AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R'),
         differential: 2.71,
       },
     },
@@ -120,7 +120,7 @@ const trucks = new Collection([
       fuelTank: 1200,
       engine: engines.get('Cursor 13 500'),
       transmission: {
-        ...transmissions.get('ZF 121AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R'),
         differential: 2.64,
       },
     },
