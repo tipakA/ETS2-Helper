@@ -78,6 +78,14 @@ const transmissions = new Collection([
       gearRatio: [ 14.93, 1 ],
     },
   ],
+  [ // ZF 12TX2421TD R
+    'ZF 12TX2421TD R', {
+      model: 'ZF 12TX2421TD R',
+      retarder: true,
+      gearCount: 12,
+      gearRatio: [ 16.69, 1 ],
+    },
+  ],
 ]);
 
 const trucks = new Collection([
@@ -146,9 +154,9 @@ const trucks = new Collection([
       color: 'Jamaica Blue',
       wheelbase: 3780,
       fuelTank: 1400,
-      engine: engines.get('MX-11 320 Euro 6'),
+      engine: engines.get('MX-13 390 Euro 6, 2017'),
       transmission: {
-        ...transmissions.get('ZF 121AS2331TD R'),
+        ...transmissions.get('ZF 12TX2421TD R'),
         differential: 2.64,
       },
     },
