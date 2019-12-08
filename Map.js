@@ -148,7 +148,7 @@ const map = new Collection([
         [ 'budapest', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'debrecen', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'pecs', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'szeged', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'szeged', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
       ]),
     },
   ],
