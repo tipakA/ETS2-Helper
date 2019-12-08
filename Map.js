@@ -83,10 +83,14 @@ const map = new Collection([
   [ // France
     'france', {
       cities: new Collection([
+        [ 'ajaccio', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'bastia', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'bonifacio', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'bordeaux', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'bourges', { dealer: false, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'brest', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'calais', { dealer: 'MAN', discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'calvi', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'civaux', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'clermont-ferrand', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'dijon', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
@@ -94,6 +98,7 @@ const map = new Collection([
         [ 'la-rochelle', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'le-havre', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'le-mans', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'lile-rousse', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'lille', { dealer: 'Scania', discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'limoges', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'lyon', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
@@ -104,6 +109,7 @@ const map = new Collection([
         [ 'nice', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'paluel', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'paris', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'porto-vecchio', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'reims', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'rennes', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'roscoff', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
