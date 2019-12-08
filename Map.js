@@ -34,7 +34,7 @@ const map = new Collection([
     'czech', {
       cities: new Collection([
         [ 'brno', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'ostrava', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'ostrava', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'praha', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
       ]),
     },
