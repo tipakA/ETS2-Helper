@@ -73,7 +73,7 @@ const map = new Collection([
         [ 'lahti', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'lovisa', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'naantali', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
-        [ 'olkiluoto', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'olkiluoto', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'pori', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'tampere', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'turku', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
