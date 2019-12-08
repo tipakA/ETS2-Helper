@@ -67,7 +67,7 @@ const map = new Collection([
   [ // Finland
     'finland', {
       cities: new Collection([
-        [ 'helsinki', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'helsinki', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'kotka', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'kouvola', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'lahti', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
