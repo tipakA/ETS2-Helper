@@ -83,7 +83,7 @@ const map = new Collection([
   [ // France
     'france', {
       cities: new Collection([
-        [ 'ajaccio', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'ajaccio', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'bastia', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'bonifacio', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'bordeaux', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
