@@ -266,7 +266,7 @@ const map = new Collection([
     'slovakia', {
       cities: new Collection([
         [ 'bratislava', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'bystrica', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'bystrica', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'kosice', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
       ]),
     },
