@@ -88,7 +88,7 @@ const map = new Collection([
         [ 'bonifacio', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'bordeaux', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'bourges', { dealer: false, discovered: true, garage: null, laborExchange: null, whole: false }],
-        [ 'brest', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'brest', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'calais', { dealer: 'MAN', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'calvi', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'civaux', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
