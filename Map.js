@@ -115,7 +115,7 @@ const map = new Collection([
         [ 'roscoff', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'saint-alban', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'saint-laurent', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
-        [ 'strasbourg', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'strasbourg', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'toulouse', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
       ]),
     },
