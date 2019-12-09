@@ -8,6 +8,23 @@ function power(hp) {
   return powers;
 }
 
+const garages = new Collection([
+  [
+    'gdansk', {
+      level: 3,
+      city: 'gdansk',
+      trucks: [ 'TD-LTR-01', 'TD-LTR-02', 'TD-LTR-03', 'TD-LTR-04', 'TD-LTR-05' ],
+    },
+  ],
+  [
+    'warszawa', {
+      level: 1,
+      city: 'warszawa',
+      trucks: [ 'TD-LTR-06', 'TD-LTR-07', 'TD-LTR-08' ],
+    },
+  ],
+]);
+
 const engines = new Collection([
   [ // D2676 324
     'D2676 324', {
@@ -311,4 +328,4 @@ const trucks = new Collection([
   ],
 ]);
 
-module.exports = { trucks };
+module.exports = { trucks, garages };
