@@ -59,6 +59,16 @@ const engines = new Collection([
       },
     },
   ],
+  [ // DTI 13 520 Euro 6
+    'DTI 13 520 Euro 6', {
+      model: 'DTI 13 520 Euro 6',
+      power: power(520),
+      torque: {
+        nm: [2550],
+        at: [ 1100, 1430 ],
+      },
+    },
+  ],
 ]);
 
 const transmissions = new Collection([
@@ -84,6 +94,14 @@ const transmissions = new Collection([
       retarder: true,
       gearCount: 12,
       gearRatio: [ 16.69, 1 ],
+    },
+  ],
+  [ // Optidriver AT2612F R
+    'Optidriver AT2612F R', {
+      model: 'Optidriver AT2612F R',
+      retarder: true,
+      gearCount: 12,
+      gearRatio: [ 14.94, 1 ],
     },
   ],
 ]);
@@ -157,6 +175,24 @@ const trucks = new Collection([
       engine: engines.get('MX-13 390 Euro 6, 2017'),
       transmission: {
         ...transmissions.get('ZF 12TX2421TD R'),
+        differential: 2.64,
+      },
+    },
+  ],
+  [ // TD-LTR-05
+    'TD-LTR-05', {
+      manufacturer: 'Renault',
+      model: 'T',
+      cabinType: 'High Sleeper',
+      chassis: '4x2 Extra Tank',
+      plate: 'GA 543EU',
+      interior: 'Exclusive Black',
+      color: 'T High Sleeper',
+      wheelbase: 3809,
+      fuelTank: 1475,
+      engine: engines.get('DTI 13 520 Euro 6'),
+      transmission: {
+        ...transmissions.get('Optidriver AT2612F R'),
         differential: 2.64,
       },
     },
