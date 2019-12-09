@@ -110,7 +110,7 @@ const map = new Collection([
         [ 'paluel', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'paris', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'porto-vecchio', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'reims', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'reims', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'rennes', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'roscoff', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'saint-alban', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
