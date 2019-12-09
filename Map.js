@@ -172,7 +172,7 @@ const map = new Collection([
         [ 'genova', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'livorno', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'messina', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'milano', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'milano', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'napoli', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'olbia', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'palermo', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
