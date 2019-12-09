@@ -20,7 +20,7 @@ const garages = new Collection([
     'warszawa', {
       level: 1,
       city: 'warszawa',
-      trucks: [ 'TD-LTR-06', 'TD-LTR-07', 'TD-LTR-08' ],
+      trucks: [ 'TD-LTR-06', 'TD-LTR-07', 'TD-LTR-08', 'TD-LTR-09', 'TD-LTR-0A' ],
     },
   ],
 ]);
@@ -310,6 +310,54 @@ const trucks = new Collection([
       plate: 'WB 2090K',
       id: 'TD-LTR-08',
       inGameID: 8,
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Shadow Gray',
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+      wheelbase: 3809,
+      fuelTank: 1250,
+      engine: engines.get('D2676 353'),
+      transmission: {
+        ...transmissions.get('ZF 12AS2331TD R'),
+        differential: 2.71,
+      },
+    },
+  ],
+  [ // TD-LTR-09
+    'TD-LTR-09', {
+      manufacturer: 'MAN',
+      model: 'TGX',
+      cabinType: 'XL',
+      plate: 'WJ 833RJ',
+      id: 'TD-LTR-09',
+      inGameID: 9,
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Shadow Gray',
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+      wheelbase: 3809,
+      fuelTank: 1250,
+      engine: engines.get('D2676 353'),
+      transmission: {
+        ...transmissions.get('ZF 12AS2331TD R'),
+        differential: 2.71,
+      },
+    },
+  ],
+  [ // TD-LTR-0A
+    'TD-LTR-0A', {
+      manufacturer: 'MAN',
+      model: 'TGX',
+      cabinType: 'XL',
+      plate: 'WJ 623NP',
+      id: 'TD-LTR-0A',
+      inGameID: 10,
       chassis: '4x2',
       interior: 'Standard',
       color: 'Shadow Gray',
