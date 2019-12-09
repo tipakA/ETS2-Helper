@@ -144,7 +144,7 @@ const map = new Collection([
         [ 'osnabruck', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'rostock', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'stuttgart', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'travemunde', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'travemunde', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
       ]),
     },
   ],
