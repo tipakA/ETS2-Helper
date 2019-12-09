@@ -101,7 +101,7 @@ const map = new Collection([
         [ 'lile-rousse', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'lille', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'limoges', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'lyon', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'lyon', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'marseille', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'metz', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'montpelier', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
