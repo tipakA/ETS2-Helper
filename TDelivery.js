@@ -163,4 +163,4 @@ const trucks = new Collection([
   ],
 ]);
 
-module.exports = trucks;
+module.exports = { trucks };
