@@ -19,6 +19,16 @@ const engines = new Collection([
       },
     },
   ],
+  [ // D2676 353
+    'D2676 353', {
+      model: 'D2676 353',
+      power: power(480),
+      torque: {
+        nm: [2300],
+        at: [ 1000, 1400 ],
+      },
+    },
+  ],
   [ // Cursor 13 500
     'Cursor 13 500', {
       model: 'Cursor 13 500',
@@ -214,6 +224,72 @@ const trucks = new Collection([
       transmission: {
         ...transmissions.get('Optidriver AT2612F R'),
         differential: 2.64,
+      },
+    },
+  ],
+  [ // TD-LTR-06
+    'TD-LTR-06', {
+      manufacturer: 'MAN',
+      model: 'TGX',
+      cabinType: 'XL',
+      plate: 'WN 957MK',
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Shadow Gray',
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+      wheelbase: 3809,
+      fuelTank: 1250,
+      engine: engines.get('D2676 353'),
+      transmission: {
+        ...transmissions.get('ZF 12AS2331TD R'),
+        differential: 2.71,
+      },
+    },
+  ],
+  [ // TD-LTR-07
+    'TD-LTR-07', {
+      manufacturer: 'MAN',
+      model: 'TGX',
+      cabinType: 'XL',
+      plate: 'WJ 964FG',
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Shadow Gray',
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+      wheelbase: 3809,
+      fuelTank: 1250,
+      engine: engines.get('D2676 353'),
+      transmission: {
+        ...transmissions.get('ZF 12AS2331TD R'),
+        differential: 2.71,
+      },
+    },
+  ],
+  [ // TD-LTR-08
+    'TD-LTR-08', {
+      manufacturer: 'MAN',
+      model: 'TGX',
+      cabinType: 'XL',
+      plate: 'WB 2090K',
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Shadow Gray',
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+      wheelbase: 3809,
+      fuelTank: 1250,
+      engine: engines.get('D2676 353'),
+      transmission: {
+        ...transmissions.get('ZF 12AS2331TD R'),
+        differential: 2.71,
       },
     },
   ],
