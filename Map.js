@@ -217,7 +217,7 @@ const map = new Collection([
   ],
   [ // Luxembourg
     'luxembourg', {
-      cities: new Collection([[ 'luxembourg', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }]]),
+      cities: new Collection([[ 'luxembourg', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }]]),
     },
   ],
   [ // Netherlands
