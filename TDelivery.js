@@ -82,7 +82,7 @@ const trucks = new Collection([
       color: 'Magic Bordo',
       wheelbase: 3761,
       fuelTank: 1400,
-      engine: engines.get('OM 471 Euro VI'),
+      engine: engines.get('OM 471 Euro VI 350'),
       transmission: {
         ...transmissions.get('PowerShift G281-12 R'),
         differential: 2.73,

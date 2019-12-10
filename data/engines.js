@@ -45,8 +45,8 @@ const engines = new Collection([
       },
     },
   ],
-  [ // OM 471 Euro VI
-    'OM 471 Euro VI', {
+  [ // OM 471 Euro VI 350
+    'OM 471 Euro VI 350', {
       manufacturers: ['Mercedes-Benz'],
       for: ['New Actros'],
       model: 'OM 471 Euro VI',
