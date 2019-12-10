@@ -18,7 +18,7 @@ const map = new Collection([
         [ 'klagenfurt', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'linz', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'salzburg', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'wien', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: true }], // ?
+        [ 'wien', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: true }],
       ]),
     },
   ],
