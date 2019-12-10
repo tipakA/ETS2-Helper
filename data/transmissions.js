@@ -4,6 +4,8 @@ const Collection = require('collection');
 const transmissions = new Collection([
   [ // ZF 12AS2331TD R
     'ZF 12AS2331TD R', {
+      manufacturers: [ 'DAF', 'Iveco', 'MAN' ],
+      for: [ 'XF105', 'XF', 'Stralis', 'TGX' ],
       model: 'ZF 12AS2331TD R',
       retarder: true,
       gearCount: 12,
@@ -12,6 +14,8 @@ const transmissions = new Collection([
   ],
   [ // PowerShift G281-12 R
     'PowerShift G281-12 R', {
+      manufacturers: ['Mercedes-Benz'],
+      for: [ 'Actros', 'New Actros' ],
       model: 'PowerShift G281-12 R',
       retarder: true,
       gearCount: 12,
@@ -20,6 +24,8 @@ const transmissions = new Collection([
   ],
   [ // ZF 12TX2421TD R
     'ZF 12TX2421TD R', {
+      manufacturers: ['MAN'],
+      for: ['XF'],
       model: 'ZF 12TX2421TD R',
       retarder: true,
       gearCount: 12,
@@ -28,6 +34,8 @@ const transmissions = new Collection([
   ],
   [ // Optidriver AT2612F R
     'Optidriver AT2612F R', {
+      manufacturers: ['Renault'],
+      for: ['T'],
       model: 'Optidriver AT2612F R',
       retarder: true,
       gearCount: 12,
