@@ -30,6 +30,23 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Bulgaria
+    'bulgaria', {
+      cities: new Collection([
+        [ 'burgas', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'karlovo', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'kozloduy', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'pernik', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'pirdop', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'pleven', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'plovdiv', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'ruse', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'sofia', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'varna', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'veliko tarnovo', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
   [ // Czech Republic
     'czech', {
       cities: new Collection([
