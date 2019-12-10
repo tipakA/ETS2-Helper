@@ -11,7 +11,7 @@ function power(hp) {
 const garages = new Collection([
   [
     'gdansk', {
-      level: 3,
+      level: 2,
       city: 'gdansk',
       trucks: [ 'TD-LTR-01', 'TD-LTR-02', 'TD-LTR-03', 'TD-LTR-04', 'TD-LTR-05' ],
     },

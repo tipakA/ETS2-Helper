@@ -260,7 +260,7 @@ const map = new Collection([
     'poland', {
       cities: new Collection([
         [ 'bialystok', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
-        [ 'gdansk', { dealer: 'Scania', discovered: true, garage: { level: 3, owned: true }, laborExchange: true, whole: true }],
+        [ 'gdansk', { dealer: 'Scania', discovered: true, garage: { level: 2, owned: true }, laborExchange: true, whole: true }],
         [ 'katowice', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'krakow', { dealer: 'MAN', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: true }],
         [ 'lodz', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
