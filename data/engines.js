@@ -11,6 +11,8 @@ function power(hp) {
 const engines = new Collection([
   [ // D2676 324
     'D2676 324', {
+      manufacturers: ['MAN'],
+      for: ['TGX'],
       model: 'D2676 324',
       power: power(440),
       torque: {
@@ -21,6 +23,8 @@ const engines = new Collection([
   ],
   [ // D2676 353
     'D2676 353', {
+      manufacturers: ['MAN'],
+      for: ['TGX'],
       model: 'D2676 353',
       power: power(480),
       torque: {
@@ -31,6 +35,8 @@ const engines = new Collection([
   ],
   [ // Cursor 13 500
     'Cursor 13 500', {
+      manufacturers: ['Iveco'],
+      for: ['Stralis'],
       model: 'Cursor 13 500',
       power: power(500),
       torque: {
@@ -41,6 +47,8 @@ const engines = new Collection([
   ],
   [ // OM 471 Euro VI
     'OM 471 Euro VI', {
+      manufacturers: ['Mercedes-Benz'],
+      for: ['New Actros'],
       model: 'OM 471 Euro VI',
       power: power(476),
       torque: {
@@ -51,6 +59,8 @@ const engines = new Collection([
   ],
   [ // MX-11 320 Euro 6
     'MX-11 320 Euro 6', {
+      manufacturers: ['DAF'],
+      for: ['XF'],
       model: 'MX-11 320 Euro 6',
       power: power(435),
       torque: {
@@ -61,6 +71,8 @@ const engines = new Collection([
   ],
   [ // MX-13 390 Euro 6, 2017
     'MX-13 390 Euro 6, 2017', {
+      manufacturers: ['DAF'],
+      for: ['XF'],
       model: 'MX-13 390 Euro 6, 2017',
       power: power(530),
       torque: {
@@ -71,6 +83,8 @@ const engines = new Collection([
   ],
   [ // DTI 13 520 Euro 6
     'DTI 13 520 Euro 6', {
+      manufacturers: ['Renault'],
+      for: ['T'],
       model: 'DTI 13 520 Euro 6',
       power: power(520),
       torque: {
