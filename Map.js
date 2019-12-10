@@ -347,6 +347,15 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Turkey
+    'turkey', {
+      cities: new Collection([
+        [ 'edirne', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'istanbul', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'tekirdag', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
   [ // UK
     'uk', {
       cities: new Collection([
