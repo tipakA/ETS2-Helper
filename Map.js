@@ -256,6 +256,28 @@ const map = new Collection([
       ]),
     },
   ],
+  [ // Romania
+    'romania', {
+      cities: new Collection([
+        [ 'bacau', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'brasov', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'bucuresti', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'calarasi', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'cernavoda', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'cluj-napoca', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'constanta', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'craiova', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'galati', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'hunedoara', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'iasi', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'mangalia', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'pitesti', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'resita', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'targu mures', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'timisoara', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+      ]),
+    },
+  ],
   [ // Russia
     'russia', {
       cities: new Collection([
