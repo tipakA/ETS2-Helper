@@ -361,7 +361,7 @@ const map = new Collection([
       cities: new Collection([
         [ 'aberdeen', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'cardiff', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'birmingham', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'birmingham', { dealer: 'MAN', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'cambridge', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'carlisle', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'dover', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
