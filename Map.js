@@ -267,7 +267,7 @@ const map = new Collection([
         [ 'lublin', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'olsztyn', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'poznan', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'szczecin', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'szczecin', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'warszawa', { dealer: 'Mercedes-Benz', discovered: true, garage: { level: 1, owned: true }, laborExchange: true, whole: false }],
         [ 'wroclaw', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
       ]),
