@@ -108,7 +108,7 @@ const map = new Collection([
         [ 'brest', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'calais', { dealer: 'MAN', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'calvi', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'civaux', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'civaux', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'clermont-ferrand', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'dijon', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'golfech', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
