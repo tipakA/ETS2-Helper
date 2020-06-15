@@ -180,7 +180,7 @@ const map = new Collection([
       cities: new Collection([
         [ 'ancona', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'bari', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'bologna', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'bologna', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'cagliari', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'cassino', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'catania', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
