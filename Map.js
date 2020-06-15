@@ -129,7 +129,7 @@ const map = new Collection([
         [ 'porto-vecchio', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'reims', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'rennes', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'roscoff', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'roscoff', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'saint-alban', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'saint-laurent', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'strasbourg', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
