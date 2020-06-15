@@ -122,7 +122,7 @@ const map = new Collection([
         [ 'marseille', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'metz', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'montpelier', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'nantes', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'nantes', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'nice', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'paluel', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'paris', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
