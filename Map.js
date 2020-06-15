@@ -301,7 +301,7 @@ const map = new Collection([
         [ 'kaliningrad', { dealer: 'Mercedes-Benz', discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'luga', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'petersburg', { dealer: 'DAF', discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
-        [ 'pskow', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'pskow', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'sosnowy', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'wyborg', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
       ]),
