@@ -9,7 +9,7 @@ function power(hp: number): EnginePowers {
   };
 }
 
-const engines = new Collection<EngineModel, Engine>([
+export const engines = new Collection<EngineModel, Engine>([
   [ // D2676 324
     'D2676 324', {
       manufacturers: ['MAN'],
@@ -107,5 +107,3 @@ const engines = new Collection<EngineModel, Engine>([
     },
   ],
 ]);
-
-module.exports = engines;
