@@ -11,7 +11,7 @@ import { CityName, CountryName } from '../util/types';
  *   'manufacturer': [dealer only] dealer in the city;
 */
 
-const map = new Collection<CountryName, Country>([
+export const map = new Collection<CountryName, Country>([
   [ // Austria
     'austria', {
       cities: new Collection<CityName, City>([
@@ -383,5 +383,3 @@ const map = new Collection<CountryName, Country>([
     },
   ],
 ]);
-
-module.exports = map;
