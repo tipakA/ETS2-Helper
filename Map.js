@@ -200,7 +200,7 @@ const map = new Collection([
         [ 'suzzara', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'taranto', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'terni', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
-        [ 'torino', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
+        [ 'torino', { dealer: 'Iveco', discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'venezia', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'verona', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'villa', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
