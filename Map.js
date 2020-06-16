@@ -224,7 +224,7 @@ const map = new Collection([
       cities: new Collection([
         [ 'kaunas', { dealer: 'Renault', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'klaipeda', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'mazeikiai', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'mazeikiai', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'panevezus', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'siauliai', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: null, whole: false }],
         [ 'utena', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
