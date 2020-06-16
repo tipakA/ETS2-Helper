@@ -35,17 +35,15 @@ export interface Engine {
   for: Model[];
   model: EngineModel;
   power(hp: number): EnginePowers;
-  torque: EngineTorque;
+  torque: {
+    nm: [ number, number? ];
+    at: [ number, number ];
+  };
 };
 
 export interface EnginePowers {
   hp: number;
   kw: number;
-};
-
-export interface EngineTorque {
-  nm: [ number, number? ];
-  at: [ number, number ];
 };
 
 export interface Garage {
