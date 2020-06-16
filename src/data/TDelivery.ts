@@ -20,6 +20,69 @@ export const garages = new Collection<CityName, Garage>([
       trucks: [ 'TD-LTR-06', 'TD-LTR-07', 'TD-LTR-08', 'TD-LTR-09', 'TD-LTR-0A' ],
     },
   ],
+  [
+    'poznan', {
+      level: 1,
+      city: 'poznan',
+      trucks: ['TD-LTR-0B'],
+    },
+  ],
+  [
+    'bialystok', {
+      level: 1,
+      city: 'bialystok',
+      trucks: [],
+    },
+  ],
+  [
+    'katowice', {
+      level: 1,
+      city: 'katowice',
+      trucks: [],
+    },
+  ],
+  [
+    'krakow', {
+      level: 1,
+      city: 'krakow',
+      trucks: [],
+    },
+  ],
+  [
+    'lodz', {
+      level: 1,
+      city: 'lodz',
+      trucks: [],
+    },
+  ],
+  [
+    'lublin', {
+      level: 1,
+      city: 'lublin',
+      trucks: [],
+    },
+  ],
+  [
+    'olsztyn', {
+      level: 1,
+      city: 'olsztyn',
+      trucks: [],
+    },
+  ],
+  [
+    'szczecin', {
+      level: 1,
+      city: 'szczecin',
+      trucks: [],
+    },
+  ],
+  [
+    'wroclaw', {
+      level: 1,
+      city: 'wroclaw',
+      trucks: [],
+    },
+  ],
 ]);
 
 export const trucks = new Collection<TruckID, Truck>([
