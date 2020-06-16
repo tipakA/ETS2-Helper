@@ -1,4 +1,5 @@
-import { CabinType, ChassisType, Color, InteriorType, Manufacturer, Model, WheelType } from './types';
+import { CabinType, ChassisType, CityName, Color, InteriorType, Manufacturer, Model, WheelType } from './types';
+import Collection from '@discordjs/collection';
 export interface Truck {
   manufacturer: Manufacturer;
   model: Model;
@@ -33,7 +34,7 @@ export interface Engine {
   manufacturers: Manufacturer[];
   for: Model[];
   model: EngineModel;
-  power(hp: number): EnginePowers;
+  power: EnginePowers;
   torque: {
     nm: [ number, number? ];
     at: [ number, number? ];
@@ -45,15 +46,32 @@ export interface EnginePowers {
   kw: number;
 };
 
-export interface Garage {
+export interface CityGarage {
   level: 1 | 2 | null;
 };
+
+export interface Garage extends CityGarage {
+  city: CityName;
+  trucks: TruckID[];
+}
 
 export interface TruckWheels {
   front: WheelType;
   rear: WheelType;
   rear2?: WheelType;
   rear3?: WheelType;
+}
+
+export interface Country {
+  cities: Collection<CityName, City>;
+}
+
+export interface City {
+  dealer: boolean | null | Manufacturer;
+  discovered: boolean;
+  garage: CityGarage | null;
+  laborExchange: boolean | null;
+  whole: boolean;
 }
 
 export type Plate = string;
