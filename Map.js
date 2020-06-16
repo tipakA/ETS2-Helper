@@ -373,7 +373,7 @@ const map = new Collection([
         [ 'london', { dealer: 'Volvo', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'manchester', { dealer: 'Scania', discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'newcastle', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
-        [ 'plymouth', { dealer: false, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
+        [ 'plymouth', { dealer: false, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'sheffield', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: true, whole: false }],
         [ 'southampton', { dealer: null, discovered: true, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
         [ 'swansea', { dealer: null, discovered: false, garage: { level: null, owned: false }, laborExchange: false, whole: false }],
