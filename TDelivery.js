@@ -132,8 +132,8 @@ const trucks = new Collection([
       fuelTank: 1475,
       engine: engines.get('DTI 13 520 Euro 6'),
       transmission: {
-        ...transmissions.get('Optidriver AT2612F R'),
-        differential: 2.64,
+        ...transmissions.get('Optidriver Xtended ATO2614F R'),
+        differential: 3.40,
       },
       wheels: {
         front: '385/55 Michelin X Line Energy F',
