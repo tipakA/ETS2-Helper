@@ -42,6 +42,16 @@ const transmissions = new Collection([
       gearRatio: [ 14.94, 1 ],
     },
   ],
+  [ // Optidriver Xtended ATO2612F R
+    'Optidriver Xtended ATO2614F R', {
+      manufacturers: ['Renault'],
+      for: ['T'],
+      model: 'Optidriver Xtended ATO2614F R',
+      retarder: true,
+      gearCount: 14,
+      gearRatio: [ 32.04, 0.79 ],
+    },
+  ],
 ]);
 
 module.exports = transmissions;
