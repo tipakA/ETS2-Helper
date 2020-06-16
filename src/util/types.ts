@@ -2,14 +2,26 @@ import { type } from "os";
 
 export type CabinType =
   | 'XL'
+  | 'Hi-Way'
+  | 'GigaSpace'
+  | 'Space'
+  | 'High Sleeper'
+  | 'Globetrotter XL'
   
 export type ChassisType =
-  | 'XL'
+  | '4x2'
+  | '4x2 Extra Tank'
 
 export { CityName } from './cityNames';
 
 export type Color =
   | 'Sunny Yellow'
+  | 'Custom Dark Blue'
+  | 'Magic Bordo'
+  | 'Jamaica Blue'
+  | 'T High Sleeper'
+  | 'Shadow Gray'
+  | 'Amber Glory Metallic'
 
 export type CountryName =
   | 'austria'
@@ -38,7 +50,10 @@ export type CountryName =
   | 'uk';
 
 export type InteriorType =
-  | 'XL'
+  | 'Standard'
+  | 'Standard Line'
+  | 'Exclusive Black'
+  | 'Exclusive'
 
 export type Manufacturer =
   | 'DAF'
