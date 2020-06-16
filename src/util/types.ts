@@ -23,8 +23,10 @@ export type Model =
   | 'TGX'
   | 'FH'
   | 'Stralis'
+  | 'Actros'
   | 'New Actros'
   | 'XF'
+  | 'XF105'
   | 'FX'
   | 'T'
 
