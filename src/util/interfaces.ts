@@ -1,5 +1,4 @@
-import { type } from "os";
-
+import { CabinType, ChassisType, Color, InteriorType, Manufacturer, Model, WheelType } from './types';
 export interface Truck {
   manufacturer: Manufacturer;
   model: Model;
@@ -37,7 +36,7 @@ export interface Engine {
   power(hp: number): EnginePowers;
   torque: {
     nm: [ number, number? ];
-    at: [ number, number ];
+    at: [ number, number? ];
   };
 };
 
@@ -56,35 +55,6 @@ export interface TruckWheels {
   rear2?: WheelType;
   rear3?: WheelType;
 }
-
-export type Manufacturer =
-  | 'DAF'
-  | 'Iveco'
-  | 'MAN'
-  | 'Mercedes-Benz'
-  | 'Renault'
-  | 'Scania'
-  | 'Volvo';
-
-export type Model =
-  | 'TGX'
-  | 'FH';
-
-export type CabinType =
-  | 'XL';
-
-export type Color =
-  | 'Sunny Yellow';
-
-export type ChassisType =
-  | 'XL';
-
-export type InteriorType =
-  | 'XL';
-
-export type WheelType =
-  | '385/55 Michelin X Line Energy F'
-  | '315/70 Michelin X Line Energy D 2';
 
 export type Plate = string;
 
