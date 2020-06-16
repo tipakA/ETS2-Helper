@@ -93,6 +93,18 @@ const engines = new Collection([
       },
     },
   ],
+  [ // D13C540 Euro 5 EEV
+    'D13C540 Euro 5 EEV', {
+      manufacturers: ['Volvo'],
+      for: ['FX'],
+      model: 'D13C540 Euro 5 EEV',
+      power: power(540),
+      torque: {
+        nm: [2600],
+        at: [ 1050, 1450 ],
+      },
+    },
+  ],
 ]);
 
 module.exports = engines;

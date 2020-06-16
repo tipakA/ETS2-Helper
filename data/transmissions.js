@@ -52,6 +52,16 @@ const transmissions = new Collection([
       gearRatio: [ 32.04, 0.79 ],
     },
   ],
+  [ // I-Shift AT2812D R
+    'I-Shift AT2812D R', {
+      manufacturers: ['Volvo'],
+      for: ['FX'],
+      model: 'I-Shift AT2812D R',
+      retarder: true,
+      gearCount: 12,
+      gearRatio: [ 14.94, 1 ],
+    }
+  ]
 ]);
 
 module.exports = transmissions;

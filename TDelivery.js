@@ -261,6 +261,30 @@ const trucks = new Collection([
       },
     },
   ],
+  [ // TD-LTR-0B
+    'TD-LTR-0B', {
+      manufacturer: 'Volvo',
+      model: 'FH',
+      cabinType: 'Globetrotter XL',
+      plate: 'PO 407FM',
+      id: 'TD-LTR-0B',
+      inGameID: 11,
+      chassis: '4x2',
+      interior: 'Exclusive',
+      color: 'Amber Glory Metallic',
+      wheelbase: 3789,
+      fuelTank: 1400,
+      engine: engines.get('D13C540 Euro 5 EEV'),
+      transmission: {
+        ...transmissions.get('I-Shift AT2812D R'),
+        differential: 2.64,
+      },
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+    },
+  ],
 ]);
 
 module.exports = { trucks, garages };
