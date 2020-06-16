@@ -1,7 +1,8 @@
 /* eslint-disable sort-keys, no-inline-comments */
-const Collection = require('collection');
+import { default as Collection } from "@discordjs/collection";
+import { TransmissionModel, Transmission } from '../util/interfaces';
 
-const transmissions = new Collection([
+export const transmissions = new Collection<TransmissionModel, Transmission>([
   [ // ZF 12AS2331TD R
     'ZF 12AS2331TD R', {
       manufacturers: [ 'DAF', 'Iveco', 'MAN' ],
@@ -63,5 +64,3 @@ const transmissions = new Collection([
     }
   ]
 ]);
-
-module.exports = transmissions;

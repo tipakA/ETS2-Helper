@@ -1,14 +1,15 @@
 /* eslint-disable sort-keys, no-inline-comments */
-const Collection = require('collection');
+import { default as Collection } from "@discordjs/collection";
+import { EnginePowers, Engine, EngineModel } from '../util/interfaces';
 
-function power(hp) {
-  const powers = {};
-  powers.hp = hp;
-  powers.kw = Math.round(hp * 0.736);
-  return powers;
+function power(hp: number): EnginePowers {
+  return {
+    hp,
+    kw: Math.round(hp * 0.736),
+  };
 }
 
-const engines = new Collection([
+export const engines = new Collection<EngineModel, Engine>([
   [ // D2676 324
     'D2676 324', {
       manufacturers: ['MAN'],
@@ -106,5 +107,3 @@ const engines = new Collection([
     },
   ],
 ]);
-
-module.exports = engines;

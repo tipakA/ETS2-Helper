@@ -1,9 +1,11 @@
 /* eslint-disable sort-keys, no-inline-comments */
-const Collection = require('collection');
-const engines = require('./data/engines.js');
-const transmissions = require('./data/transmissions.js');
+import { Garage, TruckID, Truck } from '../util/interfaces';
+import { CityName } from '../util/types';
+import { default as Collection } from '@discordjs/collection';
+import { engines } from "./engines";
+import { transmissions }from './transmissions';
 
-const garages = new Collection([
+export const garages = new Collection<CityName, Garage>([
   [
     'gdansk', {
       level: 2,
@@ -18,9 +20,72 @@ const garages = new Collection([
       trucks: [ 'TD-LTR-06', 'TD-LTR-07', 'TD-LTR-08', 'TD-LTR-09', 'TD-LTR-0A' ],
     },
   ],
+  [
+    'poznan', {
+      level: 1,
+      city: 'poznan',
+      trucks: ['TD-LTR-0B'],
+    },
+  ],
+  [
+    'bialystok', {
+      level: 1,
+      city: 'bialystok',
+      trucks: [],
+    },
+  ],
+  [
+    'katowice', {
+      level: 1,
+      city: 'katowice',
+      trucks: [],
+    },
+  ],
+  [
+    'krakow', {
+      level: 1,
+      city: 'krakow',
+      trucks: [],
+    },
+  ],
+  [
+    'lodz', {
+      level: 1,
+      city: 'lodz',
+      trucks: [],
+    },
+  ],
+  [
+    'lublin', {
+      level: 1,
+      city: 'lublin',
+      trucks: [],
+    },
+  ],
+  [
+    'olsztyn', {
+      level: 1,
+      city: 'olsztyn',
+      trucks: [],
+    },
+  ],
+  [
+    'szczecin', {
+      level: 1,
+      city: 'szczecin',
+      trucks: [],
+    },
+  ],
+  [
+    'wroclaw', {
+      level: 1,
+      city: 'wroclaw',
+      trucks: [],
+    },
+  ],
 ]);
 
-const trucks = new Collection([
+export const trucks = new Collection<TruckID, Truck>([
   [ // TD-LTR-01
     'TD-LTR-01', {
       manufacturer: 'MAN',
@@ -34,9 +99,9 @@ const trucks = new Collection([
       color: 'Sunny Yellow',
       wheelbase: 3809,
       fuelTank: 1250,
-      engine: engines.get('D2676 324'),
+      engine: engines.get('D2676 324')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.71,
       },
       wheels: {
@@ -58,9 +123,9 @@ const trucks = new Collection([
       color: 'Custom Dark Blue',
       wheelbase: 3549,
       fuelTank: 1200,
-      engine: engines.get('Cursor 13 500'),
+      engine: engines.get('Cursor 13 500')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.64,
       },
       wheels: {
@@ -82,9 +147,9 @@ const trucks = new Collection([
       color: 'Magic Bordo',
       wheelbase: 3761,
       fuelTank: 1400,
-      engine: engines.get('OM 471 Euro VI 350'),
+      engine: engines.get('OM 471 Euro VI 350')!,
       transmission: {
-        ...transmissions.get('PowerShift G281-12 R'),
+        ...transmissions.get('PowerShift G281-12 R')!,
         differential: 2.73,
       },
       wheels: {
@@ -106,9 +171,9 @@ const trucks = new Collection([
       color: 'Jamaica Blue',
       wheelbase: 3780,
       fuelTank: 1400,
-      engine: engines.get('MX-13 390 Euro 6, 2017'),
+      engine: engines.get('MX-13 390 Euro 6, 2017')!,
       transmission: {
-        ...transmissions.get('ZF 12TX2421TD R'),
+        ...transmissions.get('ZF 12TX2421TD R')!,
         differential: 2.64,
       },
       wheels: {
@@ -130,9 +195,9 @@ const trucks = new Collection([
       color: 'T High Sleeper',
       wheelbase: 3809,
       fuelTank: 1475,
-      engine: engines.get('DTI 13 520 Euro 6'),
+      engine: engines.get('DTI 13 520 Euro 6')!,
       transmission: {
-        ...transmissions.get('Optidriver Xtended ATO2614F R'),
+        ...transmissions.get('Optidriver Xtended ATO2614F R')!,
         differential: 3.40,
       },
       wheels: {
@@ -154,9 +219,9 @@ const trucks = new Collection([
       color: 'Shadow Gray',
       wheelbase: 3809,
       fuelTank: 1250,
-      engine: engines.get('D2676 353'),
+      engine: engines.get('D2676 353')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.71,
       },
       wheels: {
@@ -178,9 +243,9 @@ const trucks = new Collection([
       color: 'Shadow Gray',
       wheelbase: 3809,
       fuelTank: 1250,
-      engine: engines.get('D2676 353'),
+      engine: engines.get('D2676 353')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.71,
       },
       wheels: {
@@ -202,9 +267,9 @@ const trucks = new Collection([
       color: 'Shadow Gray',
       wheelbase: 3809,
       fuelTank: 1250,
-      engine: engines.get('D2676 353'),
+      engine: engines.get('D2676 353')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.71,
       },
       wheels: {
@@ -226,9 +291,9 @@ const trucks = new Collection([
       color: 'Shadow Gray',
       wheelbase: 3809,
       fuelTank: 1250,
-      engine: engines.get('D2676 353'),
+      engine: engines.get('D2676 353')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.71,
       },
       wheels: {
@@ -250,9 +315,9 @@ const trucks = new Collection([
       color: 'Shadow Gray',
       wheelbase: 3809,
       fuelTank: 1250,
-      engine: engines.get('D2676 353'),
+      engine: engines.get('D2676 353')!,
       transmission: {
-        ...transmissions.get('ZF 12AS2331TD R'),
+        ...transmissions.get('ZF 12AS2331TD R')!,
         differential: 2.71,
       },
       wheels: {
@@ -274,9 +339,9 @@ const trucks = new Collection([
       color: 'Amber Glory Metallic',
       wheelbase: 3789,
       fuelTank: 1400,
-      engine: engines.get('D13C540 Euro 5 EEV'),
+      engine: engines.get('D13C540 Euro 5 EEV')!,
       transmission: {
-        ...transmissions.get('I-Shift AT2812D R'),
+        ...transmissions.get('I-Shift AT2812D R')!,
         differential: 2.64,
       },
       wheels: {
@@ -286,5 +351,3 @@ const trucks = new Collection([
     },
   ],
 ]);
-
-module.exports = { trucks, garages };
