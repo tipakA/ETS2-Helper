@@ -292,7 +292,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'mangalia', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'pitesti', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'resita', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
-        [ 'targu mures', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'targu mures', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'timisoara', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
       ]),
     },
