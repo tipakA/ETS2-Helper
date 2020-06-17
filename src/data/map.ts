@@ -203,7 +203,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'taranto', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'terni', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'torino', { dealer: 'Iveco', discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
-        [ 'venezia', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'venezia', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'verona', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'villa', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
       ]),
