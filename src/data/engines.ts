@@ -97,12 +97,24 @@ export const engines = new Collection<EngineModel, Engine>([
   [ // D13C540 Euro 5 EEV
     'D13C540 Euro 5 EEV', {
       manufacturers: ['Volvo'],
-      for: ['FX'],
+      for: [ 'FH', 'FH Classic' ],
       model: 'D13C540 Euro 5 EEV',
       power: power(540),
       torque: {
         nm: [2600],
         at: [ 1050, 1450 ],
+      },
+    },
+  ],
+  [ // D13C500 Euro 5 EEV
+    'D13C500 Euro 5 EEV', {
+      manufacturers: ['Volvo'],
+      for: [ 'FH', 'FH Classic' ],
+      model: 'D13C500 Euro 5 EEV',
+      power: power(500),
+      torque: {
+        nm: [2500],
+        at: [ 1050, 1400 ],
       },
     },
   ],
