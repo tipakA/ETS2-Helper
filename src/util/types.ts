@@ -5,6 +5,7 @@ export type CabinType =
   | 'Space'
   | 'High Sleeper'
   | 'Globetrotter XL'
+  | 'Sleeper'
   
 export type ChassisType =
   | '4x2'
@@ -20,6 +21,7 @@ export type Color =
   | 'T High Sleeper'
   | 'Shadow Gray'
   | 'Amber Glory Metallic'
+  | 'Deep Aquamarine'
 
 export type CountryName =
   | 'austria'
@@ -65,12 +67,12 @@ export type Manufacturer =
 export type Model =
   | 'TGX'
   | 'FH'
+  | 'FH Classic'
   | 'Stralis'
   | 'Actros'
   | 'New Actros'
   | 'XF'
   | 'XF105'
-  | 'FX'
   | 'T'
 
 export type WheelType =
