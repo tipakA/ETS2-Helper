@@ -103,7 +103,7 @@ export const map = new Collection<CountryName, Country>([
     'france', {
       cities: new Collection<CityName, City>([
         [ 'ajaccio', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
-        [ 'bastia', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'bastia', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'bonifacio', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'bordeaux', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'bourges', { dealer: false, discovered: true, garage: null, laborExchange: null, whole: false }],
