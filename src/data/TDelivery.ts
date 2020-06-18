@@ -80,7 +80,7 @@ export const garages = new Collection<CityName, Garage>([
     'wroclaw', {
       level: 1,
       city: 'wroclaw',
-      trucks: [],
+      trucks: [ 'TD-LTR-0C', 'TD-LTR-0D', 'TD-LTR-0E' ],
     },
   ],
 ]);
@@ -343,6 +343,78 @@ export const trucks = new Collection<TruckID, Truck>([
       transmission: {
         ...transmissions.get('I-Shift AT2812D R')!,
         differential: 2.64,
+      },
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+    },
+  ],
+  [ // TD-LTR-0C
+    'TD-LTR-0C', {
+      manufacturer: 'Volvo',
+      model: 'FH Classic',
+      cabinType: 'Sleeper',
+      plate: 'DWR 20PM',
+      id: 'TD-LTR-0C',
+      inGameID: 12,
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Deep Aquamarine',
+      wheelbase: 3852,
+      fuelTank: 1400,
+      engine: engines.get('D13C500 Euro 5 EEV')!,
+      transmission: {
+        ...transmissions.get('I-Shift ATO3512D R')!,
+        differential: 3.08,
+      },
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+    },
+  ],
+  [ // TD-LTR-0D
+    'TD-LTR-0D', {
+      manufacturer: 'Volvo',
+      model: 'FH Classic',
+      cabinType: 'Sleeper',
+      plate: 'DW 733UR',
+      id: 'TD-LTR-0D',
+      inGameID: 12,
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Deep Aquamarine',
+      wheelbase: 3852,
+      fuelTank: 1400,
+      engine: engines.get('D13C500 Euro 5 EEV')!,
+      transmission: {
+        ...transmissions.get('I-Shift ATO3512D R')!,
+        differential: 3.08,
+      },
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '315/70 Michelin X Line Energy D 2',
+      },
+    },
+  ],
+  [ // TD-LTR-0E
+    'TD-LTR-0E', {
+      manufacturer: 'Volvo',
+      model: 'FH Classic',
+      cabinType: 'Sleeper',
+      plate: 'DWR 47TG',
+      id: 'TD-LTR-0E',
+      inGameID: 12,
+      chassis: '4x2',
+      interior: 'Standard',
+      color: 'Deep Aquamarine',
+      wheelbase: 3852,
+      fuelTank: 1400,
+      engine: engines.get('D13C500 Euro 5 EEV')!,
+      transmission: {
+        ...transmissions.get('I-Shift ATO3512D R')!,
+        differential: 3.08,
       },
       wheels: {
         front: '385/55 Michelin X Line Energy F',
