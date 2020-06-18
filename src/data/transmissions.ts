@@ -56,11 +56,21 @@ export const transmissions = new Collection<TransmissionModel, Transmission>([
   [ // I-Shift AT2812D R
     'I-Shift AT2812D R', {
       manufacturers: ['Volvo'],
-      for: ['FX'],
+      for: ['FH'],
       model: 'I-Shift AT2812D R',
       retarder: true,
       gearCount: 12,
       gearRatio: [ 14.94, 1 ],
+    }
+  ],
+  [
+    'I-Shift ATO3512D R', {
+      manufacturers: ['Volvo'],
+      for: ['FH Classic'],
+      model: 'I-Shift ATO3512D R',
+      retarder: true,
+      gearCount: 12,
+      gearRatio: [ 11.73, 0.78 ],
     }
   ]
 ]);
