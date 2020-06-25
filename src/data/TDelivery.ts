@@ -436,6 +436,33 @@ export const trucks = new Collection<TruckID, Truck>([
       },
     },
   ],
+  [ // TD-HTR-01
+    'TD-HTR-01', {
+      manufacturer: 'Scania',
+      model: 'S',
+      cabinType: 'High Roof',
+      plate: 'PO 8158F',
+      id: 'TD-HTR-10',
+      inGameID: 15,
+      cargoType: 'heavy',
+      chassis: '8x4',
+      interior: 'Standard',
+      color: 'Deep Aquamarine',
+      wheelbase: 3852,
+      fuelTank: 1000,
+      engine: engines.get('D16 107 730 Euro 6 V8')!,
+      transmission: {
+        ...transmissions.get('Opticruise GRSO 925R')!,
+        differential: 3.96,
+      },
+      wheels: {
+        front: '385/55 Michelin X Line Energy F',
+        rear: '385/55 Michelin X Line Energy F',
+        rear2: '315/70 Michelin X Line Energy D 2',
+        rear3: '315/70 Michelin X Line Energy D 2',
+      },
+    },
+  ],
   [ // TD-LTR-0F
     'TD-LTR-0F', {
       manufacturer: 'Volvo',
