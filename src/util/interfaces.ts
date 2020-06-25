@@ -7,6 +7,7 @@ export interface Truck {
   plate: Plate;
   id: TruckID;
   inGameID: number;
+  cargoType: 'light' | 'heavy';
   chassis: ChassisType;
   interior: InteriorType;
   color: Color;
