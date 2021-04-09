@@ -375,7 +375,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'valencia', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'valladolid', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'vandellos', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
-        [ 'vigo', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'vigo', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'villarreal', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'zaragoza', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
       ]),
