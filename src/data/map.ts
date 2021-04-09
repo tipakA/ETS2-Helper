@@ -277,6 +277,23 @@ export const map = new Collection<CountryName, Country>([
       ]),
     },
   ],
+  [ // Portugal
+    'portugal', {
+      cities: new Collection<CityName, City>([
+        [ 'coimbra', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'corticadas de lavre', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'evora', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'faro', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'guarda', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'lisboa', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'olhao', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'ponte de sor', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'porto', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'setubal', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'sines', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+      ])
+    }
+  ],
   [ // Romania
     'romania', {
       cities: new Collection<CityName, City>([

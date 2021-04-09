@@ -181,6 +181,18 @@ export type CityName =
   | 'warszawa'
   | 'wroclaw'
 
+  | 'coimbra'
+  | 'corticadas de lavre'
+  | 'evora'
+  | 'faro'
+  | 'guarda'
+  | 'lisboa'
+  | 'olhao'
+  | 'ponte de sor'
+  | 'porto'
+  | 'setubal'
+  | 'sines'
+
   | 'bacau'
   | 'brasov'
   | 'bucuresti'

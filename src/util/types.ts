@@ -41,6 +41,7 @@ export type CountryName =
   | 'netherlands'
   | 'norway'
   | 'poland'
+  | 'portugal'
   | 'romania'
   | 'russia'
   | 'slovakia'
