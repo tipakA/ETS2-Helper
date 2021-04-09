@@ -104,6 +104,7 @@ export const map = new Collection<CountryName, Country>([
       cities: new Collection<CityName, City>([
         [ 'ajaccio', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'bastia', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'bayonne', { dealer: false, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'bonifacio', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'bordeaux', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'bourges', { dealer: false, discovered: true, garage: null, laborExchange: null, whole: false }],
@@ -115,6 +116,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'dijon', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'golfech', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'la-rochelle', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'lacq', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'le-havre', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'le-mans', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'lile-rousse', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],

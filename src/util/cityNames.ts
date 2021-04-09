@@ -53,6 +53,7 @@ export type CityName =
 
   | 'ajaccio'
   | 'bastia'
+  | 'bayonne'
   | 'bonifacio'
   | 'bordeaux'
   | 'bourges'
@@ -64,6 +65,7 @@ export type CityName =
   | 'dijon'
   | 'golfech'
   | 'la-rochelle'
+  | 'lacq'
   | 'le-havre'
   | 'le-mans'
   | 'lile-rousse'
