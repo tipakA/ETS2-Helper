@@ -341,7 +341,7 @@ export const map = new Collection<CountryName, Country>([
     'spain', {
       cities: new Collection<CityName, City>([
         [ 'a coruna', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
-        [ 'albacete', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'albacete', { dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'algeciras', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'almaraz', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'almeria', { dealer: 'Iveco', discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
