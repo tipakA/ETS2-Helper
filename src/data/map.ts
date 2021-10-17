@@ -254,7 +254,7 @@ export const map = new Collection<CountryName, Country>([
     'norway', {
       cities: new Collection<CityName, City>([
         [ 'bergen', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
-        [ 'kristiansand', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'kristiansand', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'oslo', { dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
         [ 'stavanger', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
       ]),
