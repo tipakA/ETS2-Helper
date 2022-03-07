@@ -331,7 +331,7 @@ export const map = new Collection<CountryName, Country>([
   [ // Slovakia
     'slovakia', {
       cities: new Collection<CityName, City>([
-        [ 'bratislava', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'bratislava', { dealer: 'Mercedes-Benz', discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'bystrica', { dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'kosice', { dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
       ]),
