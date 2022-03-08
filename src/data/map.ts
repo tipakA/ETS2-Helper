@@ -159,7 +159,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'koln', { dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
         [ 'leipzig', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'magdeburg', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
-        [ 'mannheim', { dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'mannheim', { dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
         [ 'munchen', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'nurnberg', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'osnabruck', { dealer: 'Volvo', discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
