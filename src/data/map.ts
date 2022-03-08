@@ -408,7 +408,7 @@ export const map = new Collection<CountryName, Country>([
       cities: new Collection<CityName, City>([
         [ 'bern', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'geneve', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
-        [ 'zurich', { dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
+        [ 'zurich', { dealer: 'DAF', discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
       ]),
     },
   ],
