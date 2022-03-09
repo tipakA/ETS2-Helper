@@ -181,6 +181,7 @@ export type CityName =
   | 'warszawa'
   | 'wroclaw'
 
+  | 'beja'
   | 'coimbra'
   | 'corticadas de lavre'
   | 'evora'
@@ -251,13 +252,14 @@ export type CityName =
   | 'salamanca'
   | 'santander'
   | 'sevilla'
+  | 'soria'
   | 'tarragona'
   | 'teruel'
   | 'valencia'
   | 'valladolid'
   | 'vandellos'
   | 'vigo'
-  | 'villarreal'
+  | 'vila-real'
   | 'zaragoza'
 
   | 'goteborg'

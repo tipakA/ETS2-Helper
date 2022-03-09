@@ -280,6 +280,7 @@ export const map = new Collection<CountryName, Country>([
   [ // Portugal
     'portugal', {
       cities: new Collection<CityName, City>([
+        [ 'beja', { dealer: undefined, discovered: false, garage: undefined, laborExchange: undefined, whole: false }],
         [ 'coimbra', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'corticadas de lavre', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'evora', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
@@ -370,13 +371,14 @@ export const map = new Collection<CountryName, Country>([
         [ 'salamanca', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'santander', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'sevilla', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'soria', { dealer: undefined, discovered: false, garage: undefined, laborExchange: undefined, whole: false }],
         [ 'tarragona', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'teruel', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'valencia', { dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'valladolid', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'vandellos', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'vigo', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
-        [ 'villarreal', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'vila-real', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'zaragoza', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
       ]),
     },
