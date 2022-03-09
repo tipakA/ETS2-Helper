@@ -67,15 +67,30 @@ export type Manufacturer =
   | 'Volvo';
 
 export type Model =
+  // MAN
   | 'TGX'
+  | 'TGX Euro 6'
+  // Volvo
   | 'FH'
   | 'FH Classic'
+  // Iveco
   | 'Stralis'
+  // Mercedes-Benz
   | 'Actros'
   | 'New Actros'
+  // DAF
   | 'XF'
   | 'XF105'
+  | '2021'
+  // Renault
+  | 'Premium'
+  | 'Magnum'
   | 'T'
+  // Scania
+  | 'Streamline'
+  | 'R'
+  | 'R 2009'
+  | 'S'
 
 export type WheelType =
   | '385/55 Michelin X Line Energy F'
