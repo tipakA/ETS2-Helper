@@ -115,7 +115,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'clermont-ferrand', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'dijon', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'golfech', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
-        [ 'la rochelle', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'la rochelle', { dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'lacq', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'le havre', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'le mans', { dealer: 'Iveco', discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
