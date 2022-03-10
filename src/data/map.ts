@@ -132,7 +132,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'paris', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'porto-vecchio', { dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'reims', { dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
-        [ 'rennes', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'rennes', { dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
         [ 'roscoff', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'saint-alban', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'saint-laurent', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
