@@ -1,11 +1,42 @@
 export type CabinType =
-  | 'XL'
-  | 'Hi-Way'
-  | 'GigaSpace'
-  | 'Space'
-  | 'High Sleeper'
-  | 'Globetrotter XL'
+  // Multi-manufacturer
   | 'Sleeper'
+  | 'Normal Roof'
+  | 'High Roof'
+  // DAF
+  | 'XF'
+  | 'XG'
+  | 'XG+'
+  | 'Space'
+  | 'Space Aero'
+  | 'Space Cab Plus'
+  | 'Super Space'
+  // Iveco
+  | 'Active Space'
+  | 'Active Super'
+  | 'Active Space Super'
+  | 'Hi-Way'
+  // MAN
+  | 'XL'
+  | 'XLX'
+  | 'XXL'
+  // Mercedes-Benz
+  | 'Low Roof Sleeper'
+  | 'High Roof Sleeper'
+  | 'MegaSpace'
+  | 'StreamSpace'
+  | 'BigSpace'
+  | 'GigaSpace'
+  // Renault
+  | 'Excellence'
+  | 'High Sleeper'
+  // Scania
+  | 'Normal'
+  | 'Highline'
+  | 'Topline'
+  // Volvo
+  | 'Globetrotter'
+  | 'Globetrotter XL'
   
 export type ChassisType =
   | '4x2'
