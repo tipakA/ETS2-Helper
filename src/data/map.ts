@@ -351,7 +351,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'barcelona', { dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'bilbao', { dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'burgos', { dealer: 'DAF', discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
-        [ 'ciudad real', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
+        [ 'ciudad real', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'cordoba', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'el ejido', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'gijon', { dealer: false, discovered: false, garage: null, laborExchange: null, whole: false }],
