@@ -359,7 +359,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'huelva', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'leon', { dealer: false, discovered: false, garage: null, laborExchange: false, whole: false }],
         [ 'lleida', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
-        [ 'madrid', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
+        [ 'madrid', { dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'malaga', { dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false }],
         [ 'mengibar', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'murcia', { dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false }],
