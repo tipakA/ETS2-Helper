@@ -39,8 +39,28 @@ export type CabinType =
   | 'Globetrotter XL'
   
 export type ChassisType =
+  // Multi-manufacturer
   | '4x2'
   | '4x2 Extra Tank'
+  | '6x2'
+  | '6x2/4'
+  | '6x2 Lifting Rear'
+  | '6x2/4 Lifting Middle'
+  | '6x4'
+  | '8x4/4 Lifting Middle'
+  // DAF
+  | 'FT'
+  | 'FT (Long)'
+  | 'FTS'
+  | 'FTN'
+  // MAN
+  | '6x2-2 Lifting Rear'
+  | '6x2/2 Lifting Middle'
+  | '6x2/4 Lifting Middle'
+  // Scania
+  | '6x2 Long'
+  | '6x2 Long Lifting Rear'
+  | '6x4 Long'
 
 export { CityName } from './cityNames';
 
