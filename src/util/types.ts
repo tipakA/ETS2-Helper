@@ -51,11 +51,42 @@ export type CountryName =
   | 'turkey'
   | 'uk';
 
-export type InteriorType =
+export type BaseInteriorType =
+  // Multi-manufacturer
   | 'Standard'
-  | 'Standard Line'
-  | 'Exclusive Black'
   | 'Exclusive'
+  // DAF
+  | 'Hexagon'
+  | 'Argenta'
+  | 'Natura'
+  | 'Standard Line'
+  | 'Exclusive Line'
+  // MAN + Renault T
+  | 'Standard 2019'
+  | 'Exclusive 2019'
+  // Iveco
+  | 'New'
+  // Mercedes-Benz
+  | 'Elegance'
+  | 'Trust Edition'
+  | 'Standard StreamSpace'
+  | 'Exclusive StreamSpace'
+  // Renault
+  | 'Privilege'
+  | 'Excellence'
+  | 'Route 66 Edition'
+  | 'Standard 2013'
+  | 'Exclusive Evolution'
+  | 'Exclusive Black 2019'
+  // Scania
+  | 'Standard Dark'
+  | 'Standard Light'
+  | 'Exclusive Dark'
+  | 'Exclusive Light'
+  | 'Exclusive Wood'
+  | 'Exclusive V8'
+  
+export type InteriorType = BaseInteriorType | `${BaseInteriorType} UK`
 
 export type Manufacturer =
   | 'DAF'
