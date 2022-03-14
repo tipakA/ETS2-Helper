@@ -370,7 +370,7 @@ export const map = new Collection<CountryName, Country>([
         [ 'puertollano', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
         [ 'salamanca', { dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'santander', { dealer: null, discovered: true, garage: null, laborExchange: null, whole: false }],
-        [ 'sevilla', { dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false }],
+        [ 'sevilla', { dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false }],
         [ 'soria', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'tarragona', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
         [ 'teruel', { dealer: null, discovered: false, garage: null, laborExchange: null, whole: false }],
