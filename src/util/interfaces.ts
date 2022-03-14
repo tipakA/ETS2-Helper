@@ -77,7 +77,8 @@ export interface City {
 
 export type Plate = string;
 
-export type TruckID = string;
+type Hex = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 'A' | 'B' | 'C' | 'D' | 'E' | 'F';
+export type TruckID = `TD-${'LTR' | 'HTR'}-${Hex}${Hex}`;
 
 export type TransmissionModel = string;
 
