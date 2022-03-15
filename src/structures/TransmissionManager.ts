@@ -21,7 +21,7 @@ export default class TransmissionManager extends Manager<TransmissionModel, Tran
     );
 
     const t = new Transmission(transmission);
-    if (cache) this.set(transmission.model, t);
+    if (cache) this.data.set(transmission.model, t);
     return t;
   }
 }

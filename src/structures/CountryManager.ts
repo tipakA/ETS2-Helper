@@ -26,7 +26,7 @@ export default class CountryManager extends Manager<CountryName, Country> {
       cnt.setCities([ct]);
     }
 
-    if (cache) this.set(country.name, cnt);
+    if (cache) this.data.set(country.name, cnt);
     return cnt;
   }
 }

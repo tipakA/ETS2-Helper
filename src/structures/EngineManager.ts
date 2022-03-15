@@ -21,7 +21,7 @@ export default class EngineManager extends Manager<EngineModel, Engine> {
     );
 
     const e = new Engine(engine);
-    if (cache) this.set(engine.model, e);
+    if (cache) this.data.set(engine.model, e);
     return e;
   }
 }

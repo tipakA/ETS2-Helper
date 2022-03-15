@@ -41,7 +41,7 @@ export default class TruckManager extends Manager<TruckID, Truck> {
     };
 
     const t = new Truck(data);
-    if (cache) this.set(truck.id, t);
+    if (cache) this.data.set(truck.id, t);
     return t;
   }
 

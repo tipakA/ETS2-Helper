@@ -15,7 +15,7 @@ export default class CityManager extends Manager<CityName, City> {
     );
 
     const c = new City(city);
-    if (cache) this.set(city.name, c);
+    if (cache) this.data.set(city.name, c);
     return c;
   }
 }

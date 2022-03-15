@@ -21,7 +21,7 @@ export default class GarageManager extends Manager<CityName, Garage> {
     );
 
     const g = new Garage(garage);
-    if (cache) this.set(garage.city, g);
+    if (cache) this.data.set(garage.city, g);
     return g;
   }
 
