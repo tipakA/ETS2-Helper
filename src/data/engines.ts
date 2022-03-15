@@ -1,121 +1,140 @@
 /* eslint-disable sort-keys, no-inline-comments */
-import { default as Collection } from "@discordjs/collection";
-import { EnginePowers, Engine, EngineModel } from '../util/interfaces';
+import { Manufacturer, Model } from '../util/types';
+import { EngineModel } from '../util/interfaces';
 
-function power(hp: number): EnginePowers {
-  return {
-    hp,
-    kw: Math.round(hp * 0.736),
+export interface EngineData {
+  manufacturers: Manufacturer[];
+  for: Model[];
+  model: EngineModel;
+  power: number;
+  torque: {
+    nm: [ number, number? ];
+    at: [ number, number? ];
   };
-}
+};
 
-export const engines = new Collection<EngineModel, Engine>([
-  [ // D2676 324
-    'D2676 324', {
-      manufacturers: ['MAN'],
-      for: ['TGX'],
-      model: 'D2676 324',
-      power: power(440),
-      torque: {
-        nm: [2100],
-        at: [ 1000, 1400 ],
-      },
-    },
-  ],
-  [ // D2676 353
-    'D2676 353', {
-      manufacturers: ['MAN'],
-      for: ['TGX'],
-      model: 'D2676 353',
-      power: power(480),
-      torque: {
-        nm: [2300],
-        at: [ 1000, 1400 ],
-      },
-    },
-  ],
-  [ // Cursor 13 500
-    'Cursor 13 500', {
-      manufacturers: ['Iveco'],
-      for: ['Stralis'],
-      model: 'Cursor 13 500',
-      power: power(500),
-      torque: {
-        nm: [2300],
-        at: [ 1000, 1500 ],
-      },
-    },
-  ],
-  [ // OM 471 Euro VI 350
-    'OM 471 Euro VI 350', {
-      manufacturers: ['Mercedes-Benz'],
-      for: ['New Actros'],
-      model: 'OM 471 Euro VI',
-      power: power(476),
-      torque: {
-        nm: [2300],
-        at: [1100],
-      },
-    },
-  ],
-  [ // MX-11 320 Euro 6
-    'MX-11 320 Euro 6', {
-      manufacturers: ['DAF'],
-      for: ['XF'],
-      model: 'MX-11 320 Euro 6',
-      power: power(435),
-      torque: {
-        nm: [2100],
-        at: [ 1000, 1450 ],
-      },
-    },
-  ],
-  [ // MX-13 390 Euro 6, 2017
-    'MX-13 390 Euro 6, 2017', {
-      manufacturers: ['DAF'],
-      for: ['XF'],
-      model: 'MX-13 390 Euro 6, 2017',
-      power: power(530),
-      torque: {
-        nm: [ 2500, 2600 ],
-        at: [ 1000, 1425 ],
-      },
-    },
-  ],
-  [ // DTI 13 520 Euro 6
-    'DTI 13 520 Euro 6', {
-      manufacturers: ['Renault'],
-      for: ['T'],
-      model: 'DTI 13 520 Euro 6',
-      power: power(520),
-      torque: {
-        nm: [2550],
-        at: [ 1100, 1430 ],
-      },
-    },
-  ],
-  [ // D13C540 Euro 5 EEV
-    'D13C540 Euro 5 EEV', {
-      manufacturers: ['Volvo'],
-      for: [ 'FH', 'FH Classic' ],
-      model: 'D13C540 Euro 5 EEV',
-      power: power(540),
-      torque: {
-        nm: [2600],
-        at: [ 1050, 1450 ],
-      },
-    },
-  ],
-  [ // D13C500 Euro 5 EEV
-    'D13C500 Euro 5 EEV', {
-      manufacturers: ['Volvo'],
-      for: [ 'FH', 'FH Classic' ],
-      model: 'D13C500 Euro 5 EEV',
-      power: power(500),
-      torque: {
-        nm: [2500],
-        at: [ 1050, 1400 ],
-      },
-    },
-  ],
-]);
+export const enginesData: Array<EngineData> = [
+  { model: 'D2066 235', manufacturers: ['MAN'], for: ['TGX'], power: 320, torque: { nm: [1600], at: [1000, 1400] }},
+  { model: 'D2066 265', manufacturers: ['MAN'], for: ['TGX'], power: 360, torque: { nm: [1800], at: [1000, 1400] }},
+  { model: 'D2066 294', manufacturers: ['MAN'], for: ['TGX'], power: 400, torque: { nm: [1900], at: [1000, 1400] }},
+  { model: 'D2676 324', manufacturers: ['MAN'], for: ['TGX'], power: 440, torque: { nm: [2100], at: [1000, 1400] }},
+  { model: 'D2676 353', manufacturers: ['MAN'], for: ['TGX'], power: 480, torque: { nm: [2300], at: [1000, 1400] }},
+  { model: 'D2676 397', manufacturers: ['MAN'], for: ['TGX'], power: 540, torque: { nm: [2500], at: [1000, 1400] }},
+  { model: 'D2868 500', manufacturers: ['MAN'], for: ['TGX'], power: 680, torque: { nm: [3000], at: [1000, 1400] }},
+  { model: 'D1556 LF09 243 Euro 6d', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 330, torque: { nm: [1600], at: [1000] }},
+  { model: 'D1556 LF08 265 Euro 6d', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 360, torque: { nm: [1700], at: [1000] }},
+  { model: 'D2066 LF67 265 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 360, torque: { nm: [1800], at: [930, 1400] }},
+  { model: 'D1556 LF07 294 Euro 6d', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 400, torque: { nm: [1800], at: [1000] }},
+  { model: 'D2066 LF61 294 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 400, torque: { nm: [1900], at: [930, 1400] }},
+  { model: 'D2676 LF53 309 Euro 6c', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 420, torque: { nm: [2100], at: [930] }},
+  { model: 'D2676 LF26 324 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 440, torque: { nm: [2100], at: [930, 1400] }},
+  { model: 'D2676 LF52 338 Euro 6c', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 460, torque: { nm: [2300], at: [930] }},
+  { model: 'D2676 LF25 353 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 480, torque: { nm: [2300], at: [930, 1400] }},
+  { model: 'D2676 LF51 368 Euro 6c', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 500, torque: { nm: [2500], at: [930] }},
+  { model: 'D3876 LF02 382 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 520, torque: { nm: [2500], at: [930, 1400] }},
+  { model: 'D3876 LF08 397 Euro 6d', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 540, torque: { nm: [2700], at: [900] }},
+  { model: 'D3876 LF01 412 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 560, torque: { nm: [2700], at: [930, 1400] }},
+  { model: 'D3876 LF07 427 Euro 6d', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 580, torque: { nm: [2900], at: [900] }},
+  { model: 'D3876 LF03 471 Euro 6', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 640, torque: { nm: [3000], at: [930, 1400] }},
+  { model: 'D3876 LF09 471 Euro 6d', manufacturers: ['MAN'], for: ['TGX Euro 6'], power: 640, torque: { nm: [3000], at: [900] }},
+
+  { model: 'Curson 9 310', manufacturers: ['Iveco'], for: ['Stralis'], power: 310, torque: { nm: [1300], at: [1100, 1675] }},
+  { model: 'Curson 9 330', manufacturers: ['Iveco'], for: ['Stralis'], power: 330, torque: { nm: [1400], at: [1100, 1675] }},
+  { model: 'Curson 9 360', manufacturers: ['Iveco'], for: ['Stralis'], power: 360, torque: { nm: [1650], at: [1200, 1550] }},
+  { model: 'Curson 9 400', manufacturers: ['Iveco'], for: ['Stralis'], power: 400, torque: { nm: [1700], at: [1200, 1650] }},
+  { model: 'Curson 11 420', manufacturers: ['Iveco'], for: ['Stralis'], power: 420, torque: { nm: [1900], at: [1050, 1550] }},
+  { model: 'Curson 11 460', manufacturers: ['Iveco'], for: ['Stralis'], power: 460, torque: { nm: [2150], at: [1050, 1500] }},
+  { model: 'Cursor 13 500', manufacturers: ['Iveco'], for: ['Stralis'], power: 500, torque: { nm: [2300], at: [1000, 1550] }},
+  { model: 'Cursor 13 560', manufacturers: ['Iveco'], for: ['Stralis'], power: 560, torque: { nm: [2500], at: [1000, 1575] }},
+
+  { model: 'OM 541 V6 BlueTec5 235', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 320, torque: { nm: [1650], at: [1080] }},
+  { model: 'OM 541 V6 BlueTec5 265', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 360, torque: { nm: [1850], at: [1080] }},
+  { model: 'OM 541 V6 BlueTec5 300', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 408, torque: { nm: [2000], at: [1080] }},
+  { model: 'OM 541 V6 BlueTec5 320', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 435, torque: { nm: [2100], at: [1080] }},
+  { model: 'OM 541 V6 BlueTec5 335', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 456, torque: { nm: [2200], at: [1080] }},
+  { model: 'OM 541 V6 BlueTec5 350', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 476, torque: { nm: [2300], at: [1080] }},
+  { model: 'OM 542 V8 BlueTec5 375', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 510, torque: { nm: [2400], at: [1080] }},
+  { model: 'OM 542 V8 BlueTec5 405', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 551, torque: { nm: [2600], at: [1080] }},
+  { model: 'OM 542 V8 BlueTec5 440', manufacturers: ['Mercedes-Benz'], for: ['Actros'], power: 598, torque: { nm: [2800], at: [1080] }},
+  { model: 'OM 471 Euro VI 310', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 421, torque: { nm: [2100], at: [1100] }},
+  { model: 'OM 471 Euro VI 330', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 449, torque: { nm: [2200], at: [1100] }},
+  { model: 'OM 471 Euro VI 350', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 476, torque: { nm: [2300], at: [1100] }},
+  { model: 'OM 471 Euro VI 375', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 510, torque: { nm: [2500], at: [1100] }},
+  { model: 'OM 473 Euro VI 380', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 517, torque: { nm: [2600], at: [1100] }},
+  { model: 'OM 473 Euro VI 425', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 578, torque: { nm: [2800], at: [1100] }},
+  { model: 'OM 473 Euro VI 460', manufacturers: ['Mercedes-Benz'], for: ['New Actros'], power: 625, torque: { nm: [3000], at: [1100] }},
+
+  { model: 'PACCAR MX265', manufacturers: ['DAF'], for: ['XF105'], power: 360, torque: { nm: [1775], at: [1000, 1400] }},
+  { model: 'PACCAR MX300', manufacturers: ['DAF'], for: ['XF105'], power: 410, torque: { nm: [2000], at: [1000, 1400] }},
+  { model: 'PACCAR MX340', manufacturers: ['DAF'], for: ['XF105'], power: 460, torque: { nm: [2300], at: [1000, 1400] }},
+  { model: 'PACCAR MX375', manufacturers: ['DAF'], for: ['XF105'], power: 510, torque: { nm: [2500], at: [1000, 1400] }},
+  { model: 'MX-11 270 Euro 6, 2017', manufacturers: ['DAF'], for: ['XF'], power: 370, torque: { nm: [1800, 1900], at: [900, 1400] }},
+  { model: 'MX-11 303 Euro 6', manufacturers: ['DAF'], for: ['XF'], power: 410, torque: { nm: [2000], at: [1000, 1425] }},
+  { model: 'MX-11 320 Euro 6', manufacturers: ['DAF'], for: ['XF'], power: 435, torque: { nm: [2100], at: [1000, 1450] }},
+  { model: 'MX-11 330 Euro 6, 2017', manufacturers: ['DAF'], for: ['XF'], power: 450, torque: { nm: [2200, 2300], at: [900, 1400] }},
+  { model: 'MX-11 340 Euro 6', manufacturers: ['DAF'], for: ['XF'], power: 460, torque: { nm: [2300], at: [1000, 1425] }},
+  { model: 'MX-11 355 Euro 6, 2017', manufacturers: ['DAF'], for: ['XF'], power: 480, torque: { nm: [2350, 2500], at: [900, 1365] }},
+  { model: 'MX-11 375 Euro 6', manufacturers: ['DAF'], for: ['XF'], power: 510, torque: { nm: [2500], at: [1000, 1425] }},
+  { model: 'MX-13 390 Euro 6, 2017', manufacturers: ['DAF'], for: ['XF'], power: 530, torque: { nm: [2500, 2600], at: [1000, 1425] }},
+  { model: 'MX-11 270', manufacturers: ['DAF'], for: ['2021'], power: 367, torque: { nm: [1800, 1950], at: [900, 1400] }},
+  { model: 'MX-11 300', manufacturers: ['DAF'], for: ['2021'], power: 408, torque: { nm: [2000, 2150], at: [900, 1400] }},
+  { model: 'MX-13 315', manufacturers: ['DAF'], for: ['2021'], power: 428, torque: { nm: [2150, 2300], at: [900, 1400] }},
+  { model: 'MX-11 330', manufacturers: ['DAF'], for: ['2021'], power: 449, torque: { nm: [2200, 2350], at: [900, 1400] }},
+  { model: 'MX-13 355', manufacturers: ['DAF'], for: ['2021'], power: 483, torque: { nm: [2350, 2500], at: [900, 1400] }},
+  { model: 'MX-13 390', manufacturers: ['DAF'], for: ['2021'], power: 530, torque: { nm: [2550, 2700], at: [900, 1400] }},
+
+  { model: 'DTI 11 380 Euro 6', manufacturers: ['Renault'], for: ['T'], power: 380, torque: { nm: [1800], at: [950, 1450] }},
+  { model: 'DTI 11 430 Euro 6', manufacturers: ['Renault'], for: ['T'], power: 430, torque: { nm: [2050], at: [1000, 1400] }},
+  { model: 'DTI 13 440 Euro 6', manufacturers: ['Renault'], for: ['T'], power: 440, torque: { nm: [2200], at: [900, 1404] }},
+  { model: 'DTI 11 460 Euro 6', manufacturers: ['Renault'], for: ['T'], power: 460, torque: { nm: [2200], at: [1000, 1400] }},
+  { model: 'DTI 13 480 Euro 6', manufacturers: ['Renault'], for: ['T'], power: 480, torque: { nm: [2400], at: [950, 1404] }},
+  { model: 'DTI 13 520 Euro 6', manufacturers: ['Renault'], for: ['T'], power: 520, torque: { nm: [2550], at: [1100, 1430] }},
+  { model: '380DXi Euro5', manufacturers: ['Renault'], for: ['Premium'], power: 380, torque: { nm: [1800], at: [950, 1400] }},
+  { model: '430DXi Euro5', manufacturers: ['Renault'], for: ['Premium'], power: 430, torque: { nm: [2040], at: [950, 1400] }},
+  { model: '460DXi Euro5', manufacturers: ['Renault'], for: ['Premium'], power: 460, torque: { nm: [2200], at: [950, 1400] }},
+  { model: '440DXi Euro5', manufacturers: ['Renault'], for: ['Magnum'], power: 440, torque: { nm: [2200], at: [1020, 1400] }},
+  { model: '480DXi Euro5', manufacturers: ['Renault'], for: ['Magnum'], power: 480, torque: { nm: [2400], at: [1030, 1400] }},
+  { model: '520DXi Euro5', manufacturers: ['Renault'], for: ['Magnum'], power: 520, torque: { nm: [2550], at: [1050, 1430] }},
+
+  { model: 'D13C420 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 420, torque: { nm: [2100], at: [1000, 1400] }},
+  { model: 'D13C460 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 460, torque: { nm: [2300], at: [1000, 1400] }},
+  { model: 'D13C500 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 500, torque: { nm: [2500], at: [1050, 1400] }},
+  { model: 'D13C540 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 540, torque: { nm: [2600], at: [1050, 1450] }},
+  { model: 'D16G540 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 540, torque: { nm: [2650], at: [1000, 1450] }},
+  { model: 'D16G600 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 600, torque: { nm: [2800], at: [1000, 1500] }},
+  { model: 'D16G700 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 700, torque: { nm: [3150], at: [1000, 1550] }},
+  { model: 'D16G750 Euro 5 EEV', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], power: 750, torque: { nm: [3550], at: [1050, 1400] }},
+  { model: 'D13K460 Euro 6', manufacturers: ['Volvo'], for: ['FH'], power: 460, torque: { nm: [2300], at: [900, 1400] }},
+
+  { model: 'DC13 114 360 Euro 5', manufacturers: ['Scania'], for: ['Streamline'], power: 360, torque: { nm: [1850], at: [1000, 1300] }},
+  { model: 'DC12 18 380 Euro 5', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 380, torque: { nm: [1900], at: [1100, 1400] }},
+  { model: 'DC13 113 400 Euro 5', manufacturers: ['Scania'], for: ['Streamline'], power: 400, torque: { nm: [2100], at: [1000, 1300] }},
+  { model: 'DC13 116 370 Euro 6', manufacturers: ['Scania'], for: ['Streamline'], power: 370, torque: { nm: [1900], at: [1000, 1300] }},
+  { model: 'DC12 15 420 Euro 5', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 420, torque: { nm: [2100], at: [1100, 1400] }},
+  { model: 'DC13 112 440 Euro 5', manufacturers: ['Scania'], for: ['Streamline'], power: 440, torque: { nm: [2300], at: [1000, 1300] }},
+  { model: 'DC13 115 410 Euro 6', manufacturers: ['Scania'], for: ['Streamline'], power: 410, torque: { nm: [2150], at: [1000, 1300] }},
+  { model: 'DC13 109 440 Euro 6', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 440, torque: { nm: [2300], at: [1000, 1300] }},
+  { model: 'DC13 124 450 Euro 6', manufacturers: ['Scania'], for: ['Streamline'], power: 450, torque: { nm: [2350], at: [1000, 1300] }},
+  { model: 'DC13 111 480 Euro 5', manufacturers: ['Scania'], for: ['Streamline'], power: 480, torque: { nm: [2400], at: [1000, 1300] }},
+  { model: 'DC13 110 480 Euro 6', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 480, torque: { nm: [2500], at: [1000, 1300] }},
+  { model: 'DC13 125 490 Euro 6', manufacturers: ['Scania'], for: ['Streamline'], power: 490, torque: { nm: [2550], at: [1000, 1300] }},
+  { model: 'DC16 19 500 Euro 5 V8', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 500, torque: { nm: [2500], at: [1000, 1350] }},
+  { model: 'DC16 18 560 Euro 5 V8', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 560, torque: { nm: [2700], at: [1000, 1400] }},
+  { model: 'DC16 17 620 Euro 5 V8', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 620, torque: { nm: [3000], at: [1000, 1400] }},
+  { model: 'DC16 101 520 Euro 6 V8', manufacturers: ['Scania'], for: ['Streamline'], power: 520, torque: { nm: [2700], at: [1000, 1300] }},
+  { model: 'DC16 102 580 Euro 6 V8', manufacturers: ['Scania'], for: ['Streamline'], power: 580, torque: { nm: [2950], at: [1000, 1300] }},
+  { model: 'DC16 21 730 Euro 5 EEV V8', manufacturers: ['Scania'], for: ['Streamline', 'R 2009'], power: 730, torque: { nm: [3500], at: [1000, 1350] }},
+  { model: 'DC16 103 730 Euro 6 V8', manufacturers: ['Scania'], for: ['Streamline'], power: 730, torque: { nm: [3500], at: [1000, 1400] }},
+  { model: 'DC13 149 370 Euro 6', manufacturers: ['Scania'], for: ['R', 'S'], power: 370, torque: { nm: [1900], at: [1000, 1300] }},
+  { model: 'DC13 141 410 Euro 6', manufacturers: ['Scania'], for: ['R', 'S'], power: 410, torque: { nm: [2150], at: [1000, 1300] }},
+  { model: 'DC13 148 450 Euro 6', manufacturers: ['Scania'], for: ['R', 'S'], power: 450, torque: { nm: [2350], at: [1000, 1300] }},
+  { model: 'DC13 155 500 Euro 6', manufacturers: ['Scania'], for: ['R', 'S'], power: 500, torque: { nm: [2550], at: [1000, 1300] }},
+  { model: 'DC16 116 520 Euro 6 V8', manufacturers: ['Scania'], for: ['R', 'S'], power: 520, torque: { nm: [2700], at: [1000, 1300] }},
+  { model: 'DC16 117 580 Euro 6 V8', manufacturers: ['Scania'], for: ['R', 'S'], power: 580, torque: { nm: [3000], at: [950, 1350] }},
+  { model: 'DC16 118 650 Euro 6 V8', manufacturers: ['Scania'], for: ['R', 'S'], power: 650, torque: { nm: [3300], at: [950, 1350] }},
+  { model: 'DC16 107 730 Euro 6 V8', manufacturers: ['Scania'], for: ['R', 'S'], power: 730, torque: { nm: [3500], at: [1000, 1400] }},
+  { model: 'DC13 06 360 Euro 5', manufacturers: ['Scania'], for: ['R 2009'], power: 360, torque: { nm: [1850], at: [1000, 1300] }},
+  { model: 'DC13 05 400 Euro 5', manufacturers: ['Scania'], for: ['R 2009'], power: 400, torque: { nm: [2100], at: [1000, 1300] }},
+  { model: 'DC13 10 440 Euro 5', manufacturers: ['Scania'], for: ['R 2009'], power: 440, torque: { nm: [2300], at: [1000, 1300] }},
+  { model: 'DC13 07 480 Euro 5', manufacturers: ['Scania'], for: ['R 2009'], power: 480, torque: { nm: [2500], at: [1000, 1300] }},
+];
