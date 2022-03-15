@@ -1,8 +1,8 @@
-import { stripIndent, stripIndents } from 'common-tags'
+import Manager from './Manager';
+import { stripIndent } from 'common-tags';
+import Transmission from './Transmission';
 import { TransmissionData } from '../data/transmissions';
 import { TransmissionModel } from '../util/interfaces';
-import Manager from './Manager';
-import Transmission from './Transmission';
 
 export default class TransmissionManager extends Manager<TransmissionModel, Transmission> {
   public constructor() {
@@ -10,7 +10,6 @@ export default class TransmissionManager extends Manager<TransmissionModel, Tran
   }
 
   public makeTransmission(transmission: TransmissionData, cache = true) {
-    // console.log(`Making ${transmission.model}`);
     this.duplicateCheck(
       transmission.model,
       (existing: Transmission) =>

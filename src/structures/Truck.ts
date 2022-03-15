@@ -1,8 +1,9 @@
+/* eslint-disable sort-keys */
 import { ResolvedTruckData } from './TruckManager';
 
 const cargoTypeMapping = {
   LTR: 'light',
-  HTR: 'heavy'
+  HTR: 'heavy',
 } as const;
 
 export default class Truck {
@@ -22,7 +23,7 @@ export default class Truck {
   #transmission;
   #wheels;
 
-  constructor(data: ResolvedTruckData) {
+  public constructor(data: ResolvedTruckData) {
     this.#manufacturer = data.manufacturer;
     this.#model = data.model;
     this.#cabinType = data.cabinType;
@@ -40,63 +41,63 @@ export default class Truck {
     this.#wheels = data.wheels;
   }
 
-  get manufacturer() {
+  public get manufacturer() {
     return this.#manufacturer;
   }
 
-  get model() {
+  public get model() {
     return this.#model;
   }
 
-  get cabinType() {
+  public get cabinType() {
     return this.#cabinType;
   }
 
-  get plate() {
+  public get plate() {
     return this.#plate;
   }
 
-  get id() {
+  public get id() {
     return this.#id;
   }
 
-  get inGameID() {
+  public get inGameID() {
     return this.#inGameID;
   }
 
-  get cargoType() {
-    return this.#cargoType ?? cargoTypeMapping[this.#id.split('-')[1] as 'LTR' | 'HTR'];
+  public get cargoType() {
+    return this.#cargoType ?? cargoTypeMapping[this.#id.split('-')[1] as keyof typeof cargoTypeMapping];
   }
 
-  get chassis() {
+  public get chassis() {
     return this.#chassis;
   }
 
-  get interior() {
+  public get interior() {
     return this.#interior;
   }
 
-  get color() {
+  public get color() {
     return this.#color;
   }
 
-  get wheelbase() {
+  public get wheelbase() {
     return this.#wheelbase;
   }
 
-  get fuelTank() {
+  public get fuelTank() {
     return this.#fuelTank;
   }
 
-  get engine() {
+  public get engine() {
     return this.#engine;
   }
 
-  get transmission() {
+  public get transmission() {
     return this.#transmission;
   }
 
-  get wheels() {
+  public get wheels() {
     return this.#wheels;
   }
 }

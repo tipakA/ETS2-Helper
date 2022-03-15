@@ -1,10 +1,10 @@
+import City from './City';
 import { CityData } from '../data/map';
 import { CityName } from '../util/cityNames';
-import City from './City';
 import Manager from './Manager';
 
 export default class CityManager extends Manager<CityName, City> {
-  constructor() {
+  public constructor() {
     super();
   }
 

@@ -1,3 +1,4 @@
+/* eslint-disable no-inline-comments, capitalized-comments */
 export type CabinType =
   // Multi-manufacturer
   | 'Sleeper'
@@ -37,7 +38,7 @@ export type CabinType =
   // Volvo
   | 'Globetrotter'
   | 'Globetrotter XL'
-  
+
 export type ChassisType =
   // Multi-manufacturer
   | '4x2'
@@ -232,7 +233,7 @@ export type BaseInteriorType =
   | 'Exclusive Light'
   | 'Exclusive Wood'
   | 'Exclusive V8'
-  
+
 export type InteriorType = BaseInteriorType | `${BaseInteriorType} UK`
 
 export type Manufacturer =

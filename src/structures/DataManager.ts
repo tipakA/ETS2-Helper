@@ -2,7 +2,7 @@ import EngineManager from './EngineManager';
 import GarageManager from './GarageManager';
 import MapManager from './MapManager';
 import TransmissionManager from './TransmissionManager';
-import TruckManager from './TruckManager'; 
+import TruckManager from './TruckManager';
 
 export default class DataManager {
   #trucks = new TruckManager(this);

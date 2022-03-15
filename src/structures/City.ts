@@ -8,7 +8,7 @@ export default class City {
   #laborExchange;
   #whole;
 
-  constructor(data: CityData) {
+  public constructor(data: CityData) {
     this.#name = data.name;
     this.#dealer = data.dealer;
     this.#discovered = data.discovered;
@@ -30,7 +30,7 @@ export default class City {
   }
 
   public get garage() {
-    return this.#garage
+    return this.#garage;
   }
 
   public get laborExchange() {

@@ -1,5 +1,5 @@
-import { EventEmitter } from 'events';
 import DataManager from './DataManager';
+import { EventEmitter } from 'events';
 
 export default class Application extends EventEmitter {
   #data = new DataManager();

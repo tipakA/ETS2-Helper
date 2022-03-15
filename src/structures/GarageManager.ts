@@ -1,12 +1,11 @@
-import { CityName } from '../util/cityNames';
 import { GarageData, GarageLevel } from '../data/garages';
-import { CountryName } from '../util/types';
+import { CityName } from '../util/cityNames';
 import Garage from './Garage';
 import Manager from './Manager';
 import { stripIndent } from 'common-tags';
 
 export default class GarageManager extends Manager<CityName, Garage> {
-  constructor() {
+  public constructor() {
     super();
   }
 

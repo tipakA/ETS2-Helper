@@ -304,4 +304,4 @@ export type CityName =
   | 'plymouth'
   | 'sheffield'
   | 'southampton'
-  | 'swansea';
+  | 'swansea'

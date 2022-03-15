@@ -1,13 +1,13 @@
 import { EngineData } from '../data/engines';
 
-export default class Engine {  
+export default class Engine {
   #manufacturers;
   #for;
   #model;
   #power;
   #torque;
 
-  constructor(data: EngineData) {
+  public constructor(data: EngineData) {
     this.#manufacturers = data.manufacturers;
     this.#for = data.for;
     this.#model = data.model;
@@ -15,27 +15,26 @@ export default class Engine {
     this.#torque = data.torque;
   }
 
-  get manufacturers() {
+  public get manufacturers() {
     return this.#manufacturers;
   }
 
-  get for() {
+  public get for() {
     return this.#for;
   }
 
-  get model() {
+  public get model() {
     return this.#model;
   }
 
-  get power() {
+  public get power() {
     return {
       hp: this.#power,
       kw: Math.round(this.#power * 0.736),
     };
   }
 
-  get torque() {
+  public get torque() {
     return this.#torque;
   }
-
 }

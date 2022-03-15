@@ -5,22 +5,21 @@ export default class Garage {
   #level;
   #trucks;
 
-  constructor(data: GarageData) {
+  public constructor(data: GarageData) {
     this.#city = data.city;
     this.#level = data.level;
     this.#trucks = data.trucks;
   }
 
-  get city() {
+  public get city() {
     return this.#city;
   }
 
-  get level() {
+  public get level() {
     return this.#level;
   }
 
-  get trucks() {
+  public get trucks() {
     return this.#trucks;
   }
-
 }

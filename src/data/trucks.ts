@@ -46,7 +46,7 @@ export const trucksData: Array<TruckData> = [
       rear: '315/70 Michelin X Line Energy D 2',
     },
   },
-  { // TD-LTR-02 
+  { // TD-LTR-02
     manufacturer: 'Iveco',
     model: 'Stralis',
     cabinType: 'Hi-Way',
@@ -420,7 +420,7 @@ export const trucksData: Array<TruckData> = [
     wheels: {
       front: '385/55 Michelin X Line Energy F',
       rear: '315/70 Michelin X Line Energy D 2',
-    }
+    },
   },
   { // TD-LTR-12
     manufacturer: 'Renault',
@@ -442,7 +442,7 @@ export const trucksData: Array<TruckData> = [
     wheels: {
       front: '385/55 Michelin X Line Energy F',
       rear: '315/70 Michelin X Line Energy D 2',
-    }
+    },
   },
   { // TD-LTR-13
     manufacturer: 'Renault',
@@ -464,7 +464,7 @@ export const trucksData: Array<TruckData> = [
     wheels: {
       front: '385/55 Michelin X Line Energy F',
       rear: '315/70 Michelin X Line Energy D 2',
-    }
+    },
   },
   { // TD-LTR-14
     manufacturer: 'Renault',
@@ -486,7 +486,7 @@ export const trucksData: Array<TruckData> = [
     wheels: {
       front: '385/55 Michelin X Line Energy F',
       rear: '315/70 Michelin X Line Energy D 2',
-    }
+    },
   },
   { // TD-LTR-15
     manufacturer: 'Renault',
@@ -508,7 +508,7 @@ export const trucksData: Array<TruckData> = [
     wheels: {
       front: '385/55 Michelin X Line Energy F',
       rear: '315/70 Michelin X Line Energy D 2',
-    }
+    },
   },
   { // TD-LTR-16
     manufacturer: 'Renault',

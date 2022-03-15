@@ -1,8 +1,8 @@
-import { stripIndent } from 'common-tags';
+import Engine from './Engine';
 import { EngineData } from '../data/engines';
 import { EngineModel } from '../util/interfaces';
-import Engine from './Engine';
 import Manager from './Manager';
+import { stripIndent } from 'common-tags';
 
 export default class EngineManager extends Manager<EngineModel, Engine> {
   public constructor() {
@@ -18,7 +18,7 @@ export default class EngineManager extends Manager<EngineModel, Engine> {
         Incoming Manufacturers: ${engine.manufacturers.join(', ')}.
         Existing For: ${existing.for.join(', ')}.
         Incoming For: ${engine.for.join(', ')}.`,
-    )
+    );
 
     const e = new Engine(engine);
     if (cache) this.set(engine.model, e);

@@ -1,6 +1,6 @@
-/* eslint-disable sort-keys, no-inline-comments */
-import { TransmissionModel } from '../util/interfaces';
+/* eslint-disable sort-keys, no-inline-comments, array-bracket-spacing */
 import { Manufacturer, Model } from '../util/types';
+import { TransmissionModel } from '../util/interfaces';
 
 export interface TransmissionData {
   manufacturers: Manufacturer[];
@@ -76,12 +76,18 @@ export const transmissionsData: Array<TransmissionData> = [
   { model: 'I-Shift ATO3512D R', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], gearRatio: [11.73, 0.78] },
   { model: 'I-Shift ATO3512F R + ASO-ULC', manufacturers: ['Volvo'], for: ['FH', 'FH Classic'], subgears: 2, gearRatio: [32.04, 0.78] },
 
-  { model: 'Allison 4500', manufacturers: ['DAF', 'Iveco', 'MAN', 'Mercedes-Benz', 'Renault', 'Volvo'], for: [
-      'XF105', 'XF', 'Stralis', 'TGX', 'TGX Euro 6', 'Actros', 'New Actros', 'Premium', 'Magnum', 'T', 'FH'
-    ], gearRatio: [4.70, 0.67], torqueMod: 2.42
+  {
+    model: 'Allison 4500',
+    manufacturers: ['DAF', 'Iveco', 'MAN', 'Mercedes-Benz', 'Renault', 'Volvo'],
+    for: ['XF105', 'XF', 'Stralis', 'TGX', 'TGX Euro 6', 'Actros', 'New Actros', 'Premium', 'Magnum', 'T', 'FH'],
+    gearRatio: [4.70, 0.67],
+    torqueMod: 2.42,
   },
-  { model: 'Allison 4500 R', manufacturers: ['DAF', 'Iveco', 'MAN', 'Mercedes-Benz', 'Renault', 'Volvo'], for: [
-      'XF105', 'XF', 'Stralis', 'TGX', 'TGX Euro 6', 'Actros', 'New Actros', 'Premium', 'Magnum', 'T', 'FH'
-    ], gearRatio: [4.70, 0.67], torqueMod: 2.42
+  {
+    model: 'Allison 4500 R',
+    manufacturers: ['DAF', 'Iveco', 'MAN', 'Mercedes-Benz', 'Renault', 'Volvo'],
+    for: ['XF105', 'XF', 'Stralis', 'TGX', 'TGX Euro 6', 'Actros', 'New Actros', 'Premium', 'Magnum', 'T', 'FH'],
+    gearRatio: [4.70, 0.67],
+    torqueMod: 2.42,
   },
 ];

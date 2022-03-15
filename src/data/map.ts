@@ -289,7 +289,7 @@ export const map: Array<CountryData> = [
       { name: 'porto', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'setubal', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'sines', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
-    ]
+    ],
   },
   {
     name: 'romania',

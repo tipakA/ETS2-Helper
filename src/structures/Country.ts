@@ -1,13 +1,13 @@
+import City from './City';
+import { CityName } from '../util/cityNames';
 import Collection from '@discordjs/collection';
 import { CountryData } from '../data/map';
-import { CityName } from '../util/cityNames';
-import City from './City';
 
 export default class Country {
   #name;
   #cities = new Collection<CityName, City>();
 
-  constructor(data: CountryData) {
+  public constructor(data: CountryData) {
     this.#name = data.name;
   }
 

@@ -1,14 +1,14 @@
 /* eslint-disable no-dupe-class-members */
+import Country from './Country';
 import { CountryData } from '../data/map';
 import { CountryName } from '../util/types';
-import Country from './Country';
 import Manager from './Manager';
 import MapManager from './MapManager';
 
 export default class CountryManager extends Manager<CountryName, Country> {
   #mapManager;
 
-  constructor(mapManager: MapManager) {
+  public constructor(mapManager: MapManager) {
     super();
     this.#mapManager = mapManager;
   }

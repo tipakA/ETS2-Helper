@@ -11,7 +11,7 @@ export default abstract class Manager<K, V> {
     return this.#collection.set(key, value);
   }
 
-  protected duplicateCheck(key: K, msg: string | ((...d: Array<V>) => string)): void {
+  protected duplicateCheck(key: K, msg: string | ((...d: Array<V>) => string)): void { // eslint-disable-line no-unused-vars
     const dupe = this.#collection.get(key);
     if (!dupe) return;
     const errMsg = typeof msg === 'function' ? msg(dupe) : msg;

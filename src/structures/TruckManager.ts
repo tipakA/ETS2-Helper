@@ -1,11 +1,11 @@
-import { stripIndent } from 'common-tags';
-import { TruckData } from '../data/trucks';
-import { TruckID } from '../util/interfaces';
 import DataManager from './DataManager';
 import Engine from './Engine';
 import Manager from './Manager';
+import { stripIndent } from 'common-tags';
 import Transmission from './Transmission';
 import Truck from './Truck';
+import { TruckData } from '../data/trucks';
+import { TruckID } from '../util/interfaces';
 
 export interface ResolvedTruckData extends Omit<TruckData, 'engine' | 'transmission'> {
   engine: Engine;
@@ -15,7 +15,7 @@ export interface ResolvedTruckData extends Omit<TruckData, 'engine' | 'transmiss
 export default class TruckManager extends Manager<TruckID, Truck> {
   #dataManager;
 
-  constructor(dataManager: DataManager) {
+  public constructor(dataManager: DataManager) {
     super();
     this.#dataManager = dataManager;
   }
@@ -28,8 +28,10 @@ export default class TruckManager extends Manager<TruckID, Truck> {
 
     const { transmissionsData } = await import('../data/transmissions');
     const transData = transmissionsData.find(tr => tr.model === truck.transmission.model);
-    if (!transData) throw stripIndent`    Missing transmission: ${truck.transmission.model}
+    if (!transData) {
+      throw stripIndent`    Missing transmission: ${truck.transmission.model}
       Truck ID: ${truck.id}.`;
+    }
     const truckTransmission = new Transmission(transData).setDifferential(truck.transmission.differential);
 
     const data: ResolvedTruckData = {
@@ -44,7 +46,7 @@ export default class TruckManager extends Manager<TruckID, Truck> {
   }
 
   public getTruckGarage(truck: Truck | TruckID) {
-    const id = (truck as Truck).id ?? truck
-    return this.#dataManager.garages.collection.find(garage => garage.trucks.includes(id))
+    const id = truck instanceof Truck ? truck.id : truck;
+    return this.#dataManager.garages.collection.find(garage => garage.trucks.includes(id));
   }
 }

@@ -1,10 +1,13 @@
+/* eslint-disable sort-keys, no-inline-comments, capitalized-comments */
 import { CityName } from '../util/cityNames';
 import { TruckID } from '../util/interfaces';
 
+/* eslint-disable no-shadow, no-unused-vars */
 export enum GarageLevel {
   Small,
   Big,
 }
+/* eslint-enable no-shadow, no-unused-vars */
 
 export interface GarageData {
   level: GarageLevel;
