@@ -359,7 +359,7 @@ export const map: Array<CountryData> = [
       { name: 'navia', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'o barco', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'pamplona', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
-      { name: 'port de sagunt', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
+      { name: 'port de sagunt', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
       { name: 'puertollano', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
       { name: 'salamanca', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'santander', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
