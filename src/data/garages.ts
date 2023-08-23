@@ -32,17 +32,17 @@ export const garages: Array<GarageData> = [
     trucks: [ 'TD-LTR-0B', 'TD-HTR-01' ],
   },
   { // bialystok
-    level: GarageLevel.Small,
+    level: GarageLevel.Big,
     city: 'bialystok',
     trucks: [],
   },
   { // katowice
-    level: GarageLevel.Small,
+    level: GarageLevel.Big,
     city: 'katowice',
     trucks: [],
   },
   { // krakow
-    level: GarageLevel.Small,
+    level: GarageLevel.Big,
     city: 'krakow',
     trucks: [],
   },
@@ -57,7 +57,7 @@ export const garages: Array<GarageData> = [
     trucks: [ 'TD-LTR-16', 'TD-LTR-17', 'TD-LTR-18', 'TD-LTR-19', 'TD-LTR-1A' ],
   },
   { // olsztyn
-    level: GarageLevel.Small,
+    level: GarageLevel.Big,
     city: 'olsztyn',
     trucks: [],
   },
