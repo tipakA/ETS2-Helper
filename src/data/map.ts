@@ -40,7 +40,7 @@ export const map: Array<CountryData> = [
   {
     name: 'belgium',
     cities: [
-      { name: 'brussel', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'brussel', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'liege', dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
     ],
   },
