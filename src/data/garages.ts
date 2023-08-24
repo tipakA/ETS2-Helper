@@ -44,7 +44,7 @@ export const garages: Array<GarageData> = [
   { // krakow
     level: GarageLevel.Big,
     city: 'krakow',
-    trucks: [],
+    trucks: [ 'TD-LTR-20', 'TD-LTR-21', 'TD-LTR-22', 'TD-LTR-23', 'TD-LTR-24' ],
   },
   { // lodz
     level: GarageLevel.Small,
