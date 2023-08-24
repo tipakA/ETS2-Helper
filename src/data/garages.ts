@@ -34,7 +34,7 @@ export const garages: Array<GarageData> = [
   { // bialystok
     level: GarageLevel.Big,
     city: 'bialystok',
-    trucks: [],
+    trucks: [ 'TD-LTR-2A', 'TD-LTR-2B', 'TD-LTR-2C', 'TD-LTR-2D', 'TD-LTR-2E' ],
   },
   { // katowice
     level: GarageLevel.Big,
