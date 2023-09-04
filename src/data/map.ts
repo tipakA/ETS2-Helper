@@ -400,7 +400,7 @@ export const map: Array<CountryData> = [
     name: 'switzerland',
     cities: [
       { name: 'bern', dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
-      { name: 'geneve', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'geneve', dealer: 'Mercedes-Benz', discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'zurich', dealer: 'DAF', discovered: true, garage: { level: null }, laborExchange: true, whole: false },
     ],
   },
