@@ -94,7 +94,7 @@ export const map: Array<CountryData> = [
   {
     name: 'finland',
     cities: [
-      { name: 'helsinki', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'helsinki', dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'kotka', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'kouvola', dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'lahti', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
