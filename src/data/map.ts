@@ -103,7 +103,7 @@ export const map: Array<CountryData> = [
       { name: 'olkiluoto', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
       { name: 'pori', dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'tampere', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
-      { name: 'turku', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'turku', dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
     ],
   },
   {
