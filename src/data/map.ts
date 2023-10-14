@@ -346,7 +346,7 @@ export const map: Array<CountryData> = [
       { name: 'bilbao', dealer: null, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'burgos', dealer: 'DAF', discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'ciudad real', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
-      { name: 'cordoba', dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
+      { name: 'cordoba', dealer: 'MAN', discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'el ejido', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'gijon', dealer: false, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'granada', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
