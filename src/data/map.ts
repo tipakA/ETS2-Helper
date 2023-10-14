@@ -302,7 +302,7 @@ export const map: Array<CountryData> = [
       { name: 'cernavoda', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'cluj-napoca', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'constanta', dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
-      { name: 'craiova', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
+      { name: 'craiova', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'galati', dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'hunedoara', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'iasi', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
