@@ -110,6 +110,7 @@ export type CityName =
   | 'rostock'
   | 'stuttgart'
   | 'travemunde'
+  | 'werlte'
 
   | 'budapest'
   | 'debrecen'
