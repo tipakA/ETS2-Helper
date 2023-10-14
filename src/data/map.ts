@@ -197,7 +197,7 @@ export const map: Array<CountryData> = [
       { name: 'firenze', dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'genova', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'livorno', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
-      { name: 'messina', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
+      { name: 'messina', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'milano', dealer: 'Scania', discovered: true, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'napoli', dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'olbia', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
