@@ -63,7 +63,7 @@ export const map: Array<CountryData> = [
   {
     name: 'czech',
     cities: [
-      { name: 'brno', dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'brno', dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'ostrava', dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'praha', dealer: 'Renault', discovered: true, garage: { level: null }, laborExchange: false, whole: false },
     ],
