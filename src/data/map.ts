@@ -52,7 +52,7 @@ export const map: Array<CountryData> = [
       { name: 'kozloduy', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'pernik', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
       { name: 'pirdop', dealer: null, discovered: false, garage: null, laborExchange: null, whole: false },
-      { name: 'pleven', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
+      { name: 'pleven', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'plovdiv', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'ruse', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'sofia', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
