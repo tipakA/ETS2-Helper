@@ -316,7 +316,7 @@ export const map: Array<CountryData> = [
   {
     name: 'russia',
     cities: [
-      { name: 'kaliningrad', dealer: 'Mercedes-Benz', discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'kaliningrad', dealer: 'Mercedes-Benz', discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'luga', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'petersburg', dealer: 'DAF', discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'pskow', dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
