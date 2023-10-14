@@ -218,7 +218,7 @@ export const map: Array<CountryData> = [
   {
     name: 'latvia',
     cities: [
-      { name: 'daugavpils', dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'daugavpils', dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'liepaja', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'rezekne', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'riga', dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
