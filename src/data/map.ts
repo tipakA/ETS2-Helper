@@ -230,7 +230,7 @@ export const map: Array<CountryData> = [
     name: 'lithuania',
     cities: [
       { name: 'kaunas', dealer: 'Renault', discovered: true, garage: { level: null }, laborExchange: true, whole: false },
-      { name: 'klaipeda', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
+      { name: 'klaipeda', dealer: false, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'mazeikiai', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
       { name: 'panevezus', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'siauliai', dealer: null, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
