@@ -172,6 +172,7 @@ export const map: Array<CountryData> = [
       { name: 'rostock', dealer: 'Renault', discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'stuttgart', dealer: false, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'travemunde', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
+      { name: 'werlte', dealer: null, discovered: true, garage: null, laborExchange: null, whole: false },
     ],
   },
   {
