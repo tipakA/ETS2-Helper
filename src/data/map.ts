@@ -423,7 +423,7 @@ export const map: Array<CountryData> = [
       { name: 'carlisle', dealer: null, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'dover', dealer: null, discovered: true, garage: { level: null }, laborExchange: true, whole: false },
       { name: 'edinburgh', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
-      { name: 'felixstowe', dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
+      { name: 'felixstowe', dealer: false, discovered: true, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'glasgow', dealer: false, discovered: false, garage: { level: null }, laborExchange: false, whole: false },
       { name: 'grimsby', dealer: false, discovered: false, garage: { level: null }, laborExchange: null, whole: false },
       { name: 'liverpool', dealer: null, discovered: true, garage: { level: null }, laborExchange: false, whole: false },
